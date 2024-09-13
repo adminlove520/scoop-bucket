@@ -9,7 +9,7 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/pykiller/API-T00L/releases/download/v1.3/API-T00L_v1.3.jar",
+    "url": "https://github.com/pykiller/API-T00L/releases/download/v1.3/API-T00L_v1.3.jar#/API-T00L.jar",
     "hash": "3eacb445176afe360711146af5825acaaaff4df508b4df53c612cce45a19c753",
     "pre_install": [
         "Set-Content \"$dir\\API-T00L.bat\" '@pushd %~dp0",
@@ -19,6 +19,6 @@
     "bin": "API-T00L.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/pykiller/API-T00L/releases/download/v$version/API-T00L_v$version.jar"
+        "url": "https://github.com/pykiller/API-T00L/releases/download/v$version/API-T00L_v$version.jar#/API-T00L.jar"
     }
 }
