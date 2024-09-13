@@ -1,0 +1,52 @@
+{
+    "version": "v2.2",
+    "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters.",
+    "homepage": "https://github.com/ph4ntonn/Stowaways",
+    "license": "MIT",
+    "url": [
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/windows_x64_admin.exe",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/windows_x64_agent.exe",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/arm_eabi5_agent",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/linux_x64_admin",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/linux_x64_agent",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/linux_x86_admin",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/linux_x86_agent",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/macos_x64_admin",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/macos_x64_agent",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/mipsel_agent",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/windows_x86_admin.exe",
+        "https://github.com/ph4ntonn/Stowaway/releases/download/v2.2/windows_x86_agent.exe"
+    ],
+    "hash": [
+        "90e84c4528f0b9c773ecefb8ae09e8fe9cda9e01a20247ed50aa253ce6f7071d",
+        "d8e272f50e1d699870a74f8cbed06a9371212c208bcfa8b3c992a4744e84ed87",
+        "60b669ebdac64582d87f1a681dbe7bc51fd2efd8b4dd805fcb1bed8829899074",
+        "a134f4f4a8d5efd1529dfe83ba1084083da36fd3e78963e1d5d127f7649acb24",
+        "c98f79f9fed4564d6f11e17766e958866c8cd52d114269e6ac15ee999f736b03",
+        "d19ae5afb12e96d2af465759b8369db0c8d4a30a0103e8d1b5a9439775de5a0c",
+        "7fc82b5f557b65c03032f7d8f602307dd96fa340ebc64c062459b1b0a4ea134f",
+        "203a56be57711a3b5b6751dc9e056888090d0e1b48e34f7f2b117b7606844b56",
+        "26583956c65aad7b4ec55deeb3e0811ee6c96dfca78d4b70c4ad84805e316a3d",
+        "a2c87f6f98279aefcd9c88d3640057c0b40deaac07b9c4f948de660794d4fe7d",
+        "efe712b152e0edd0e11b98f1a7687825959f682d6d9fc1a9765dde6109b7e26d",
+        "710d8bc1dba4a8e75c90ea989bef387d1aae97087d17b558f9a1fa42b70fa52e"
+    ],
+    "bin": [
+        [
+            "windows_x64_admin.exe",
+            "stowaway-admin"
+        ],
+        [
+            "windows_x64_agent.exe",
+            "stowaway-agent"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ph4ntonn/Stowaway/releases/download/$version/windows_x86_agent.exe"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "version": "2.3.20190927",
+    "description": "Struts2系列漏洞检查工具",
+    "homepage": "https://github.com/shack2/Struts2VulsTools",
+    "license": "Freeware",
+    "url": "https://github.com/shack2/Struts2VulsTools/releases/download/2.3.20190927/Struts2.2019.V2.3.zip",
+    "hash": "23217ac681689b3c4a02013b884d70c09e3e0ad18920f4dca7658ecfdbd91640",
+    "bin":"Struts2漏洞检查工具2019版 V2.3.exe",
+    "shortcuts": [
+        [
+            "Struts2漏洞检查工具2019版 V2.3.exe",
+            "Struts2漏洞检查工具2019版 V2.3"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/shack2/Struts2VulsTools/releases/download/$version/Struts2.2019.V2.3.zip"
+    }
+}

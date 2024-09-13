@@ -1,0 +1,20 @@
+{
+    "version": "2.4",
+    "description": "DecryptTools-综合解密",
+    "homepage": "https://github.com/wafinfo/DecryptTools",
+    "license": "Freeware",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "url": "https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV2.4/DecryptToolsV2.4.jar#/DecryptTools.jar",
+    "hash":"b05628477814f1f7ac7f9d8608043ef2a603b1349386a03cb54d45968cbebb29",
+    "pre_install": "Set-Content \"$dir\\DecryptTools.bat\" '@pushd %~dp0\n@cmd /c java.exe -jar \"DecryptTools.jar\" %*\n@popd' -Encoding Ascii",
+    "bin": "DecryptTools.bat",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/wafinfo/DecryptTools/releases/download/DecryptToolsV$version/DecryptToolsV$version.jar#/DecryptTools.jar"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "version": "1.3.3",
+    "description": "It can be either a JNDIExploit or a ysoserial",
+    "homepage": "https://github.com/qi4L/JYso",
+    "license": "Freeware",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "url": "https://github.com/qi4L/JYso/releases/download/v1.3.3/JYso-1.3.3.jar#/JYso.jar",
+    "hash": "788d176745a36cbc5abedfe73e4f13569f9b82b7a4d289806cf8861b9d65f38e",
+    "pre_install": [
+        "Set-Content \"$dir\\JYso.bat\" '@pushd %~dp0",
+        "@cmd /c java.exe -jar \"JYso.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "bin": "JYso.bat",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/qi4L/JYso/releases/download/v$version/JYso-$version.jar#/JYso.jar"
+    }
+}
