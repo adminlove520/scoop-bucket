@@ -6,13 +6,13 @@
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/gowitness.json",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sensepost/gowitness/releases/download/2.5.1/gowitness-2.5.1-windows-amd64.exe",
+            "url": "https://github.com/sensepost/gowitness/releases/download/2.5.1/gowitness-2.5.1-windows-amd64.exe#/gowitness.exe",
             "hash": "c8536db178e87bf5db221c405de047e1e27ed260dda0837542d5a09e3845834c"
         }
     },
     "bin": [
         [
-            "gowitness-2.4.2-windows-amd64.exe",
+            "gowitness.exe",
             "gowitness"
         ]
     ],
@@ -20,13 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sensepost/gowitness/releases/download/$version/gowitness-$version-windows-amd64.exe",
-                "bin": [
-                    [
-                        "gowitness-$version-windows-amd64.exe",
-                        "gowitness"
-                    ]
-                ]
+                "url": "https://github.com/sensepost/gowitness/releases/download/$version/gowitness-$version-windows-amd64.exe#/gowitness.exe"
             }
         }
     }
