@@ -1,6 +1,6 @@
 {
-    "version": "v1.1",
-    "description": "shellcodeloader",
+    "version": "1.1",
+    "description": "Windows平台的shellcode免杀加载器。",
     "homepage": "https://github.com/knownsec/shellcodeloader",
     "license": "Freeware",
     "architecture": {
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/knownsec/shellcodeloader/releases/download/$version/shellcodeLoader.7z"
+                "url": "https://github.com/knownsec/shellcodeloader/releases/download/v$version/shellcodeLoader.7z"
             }
         }
     }
