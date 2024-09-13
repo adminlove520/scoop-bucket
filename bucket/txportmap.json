@@ -1,5 +1,5 @@
 {
-    "version": "v1.1.2",
+    "version": "1.1.2",
     "description": "Port Scanner & Banner Identify From TianXiang",
     "homepage": "https://github.com/4dogs-cn/TXPortMap",
     "license": "MIT",
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/4dogs-cn/TXPortMap/releases/download/$version/TxPortMap_windows_x64.exe"
+                "url": "https://github.com/4dogs-cn/TXPortMap/releases/download/v$version/TxPortMap_windows_x64.exe"
             }
         }
     }
