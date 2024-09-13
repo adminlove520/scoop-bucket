@@ -13,10 +13,6 @@
         [
             "windows_x64_admin.exe",
             "stowaway-admin"
-        ],
-        [
-            "windows_x64_agent.exe",
-            "stowaway-agent"
         ]
     ],
     "checkver": "github",
