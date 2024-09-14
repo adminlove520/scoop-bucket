@@ -13,7 +13,7 @@
     "hash": "0bd176e320db6639e32a7da84baceaefa808a3cc0234c5f181ec3b3d92140ad8",
     "pre_install": [
         "Get-ChildItem \"$dir\" 'CTFCrackTools-*.jar' | Select-Object -First 1 | Rename-Item -NewName 'CTFCrackTools.jar'",
-        "Set-Content \"$dir\\API-T00L.bat\" '@pushd %~dp0",
+        "Set-Content \"$dir\\CTFCrackTools.bat\" '@pushd %~dp0",
         "@start javaw.exe -jar \"CTFCrackTools.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
