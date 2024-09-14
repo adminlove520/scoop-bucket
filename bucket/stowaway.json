@@ -1,5 +1,5 @@
 {
-    "version": "v2.2",
+    "version": "2.2",
     "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters.",
     "homepage": "https://github.com/ph4ntonn/Stowaways",
     "license": "MIT",
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ph4ntonn/Stowaway/releases/download/$version/windows_x64_admin.exe"
+                "url": "https://github.com/ph4ntonn/Stowaway/releases/download/v$version/windows_x64_admin.exe"
             }
         }
     }
