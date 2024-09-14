@@ -4,7 +4,7 @@
     "homepage": "https://github.com/Merricx/qrazybox",
     "license": "MIT",
     "url": "https://github.com/Merricx/qrazybox/archive/refs/heads/master.zip",
-    "hash":"2a752f5e3fa16a04aab820effb870af17ea30cd238cf4e5190753bedebba3c83",
+    "hash":"81dd1a02f44eebf888b7ce117d64ade523cc49da5c0698630b73e0a8faa5bc86",
     "pre_install": "Set-Content \"$dir\\qrazybox.bat\" '@pushd %~dp0\n@start index.html\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\qrazybox-master\\*\" -Destination \"$dir\\\"",
