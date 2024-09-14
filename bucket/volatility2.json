@@ -11,8 +11,6 @@
     "extract_dir": "volatility-master",
     "pre_install": "Set-Content \"$dir\\vol2.bat\" '@pushd %~dp0\npython2 vol.py %*\n@popd' -Encoding Ascii",
     "post_install": [
-        "Move-Item -Path \"$dir\\volatility-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\volatility-master\" -Force -Recurse",
         "pip2 install distorm3 pycryptodome"
     ],
     "bin": "vol2.bat",
