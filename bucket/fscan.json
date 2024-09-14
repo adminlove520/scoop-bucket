@@ -22,6 +22,6 @@
         "hash": {
             "mode": "extract",
             "url": "https://github.com/shadow1ng/fscan/releases/download/$version/checksums.txt"
-        },
+        }
     }
 }

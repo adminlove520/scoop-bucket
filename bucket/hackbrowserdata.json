@@ -18,6 +18,6 @@
         "hash": {
             "mode": "extract",
             "url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/checksums-v$version.txt"
-        },
+        }
     }
 }
