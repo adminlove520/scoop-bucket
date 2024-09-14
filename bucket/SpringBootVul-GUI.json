@@ -10,7 +10,7 @@
         ]
     },
     "url": "https://github.com/wh1t3zer/SpringBootVul-GUI/releases/download/v0.0.7/SpringBootVul_GUI.zip",
-    "hash": "aa6c583fae16da511a67451599e64af7e22b53dca0beece7dde4047a10451105",
+    "hash": "3c19ac79bca63e99af71a139c29a1d8312dacac1d2fa39b564fe9bb6245714d2",
     "pre_install": [
         "Set-Content \"$dir\\SpringBootVul-GUI.bat\" '@pushd %~dp0",
         "@start javaw.exe -jar \"SpringBootVul_GUI.jar\" %*",
