@@ -1,7 +1,8 @@
 {
     "version": "1.0",
     "description": "Postgresql利用工具",
-    "homepage": "https://mp.weixin.qq.com/s/0s6CTAjwd5-qN6IxupwC9w",
+    "homepage": "https://github.com/20142995/postgreUtil",
+    "notes":"from https://mp.weixin.qq.com/s/0s6CTAjwd5-qN6IxupwC9w",
     "license": "Freeware",
     "suggest": {
         "JDK": [

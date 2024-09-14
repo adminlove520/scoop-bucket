@@ -1,7 +1,8 @@
 {
     "version": "1.0",
     "description": "jboss综合利用工具",
-    "homepage": "https://mp.weixin.qq.com/s/O0sMwNHRZKn4G4uJC55YlQ",
+    "homepage": "https://github.com/20142995",
+    "notes":"from https://mp.weixin.qq.com/s/O0sMwNHRZKn4G4uJC55YlQ",
     "license": "Freeware",
     "suggest": {
         "JDK": [

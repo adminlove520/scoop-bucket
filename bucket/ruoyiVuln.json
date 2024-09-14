@@ -1,7 +1,8 @@
 {
     "version": "1.0",
     "description": "若依综合利用工具",
-    "homepage": "https://mp.weixin.qq.com/s/HU1OqZ7YFGjfc4HE3M8tPA",
+    "homepage": "https://github.com/20142995/ruoyiVuln",
+    "notes":"from https://mp.weixin.qq.com/s/HU1OqZ7YFGjfc4HE3M8tPA",
     "license": "Freeware",
     "suggest": {
         "JDK": [
