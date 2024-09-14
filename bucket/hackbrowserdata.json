@@ -7,17 +7,10 @@
         "url": "https://github.com/moonD4rk/HackBrowserData/raw/master/LICENSE"
     },
     "url":"https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.6/hack-browser-data-windows-64bit.zip",
-    "hash": {
-        "mode": "extract",
-        "url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/checksums-v$version.txt"
-    },
+    "hash":"57d611717398735e11d600d1b1199a73c3fb349725e699ac97aba1ec47a24fab",
     "persist": "results",
     "checkver": "github",
     "autoupdate": {
-        "url":"https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/hack-browser-data-windows-64bit.zip",
-        "hash": {
-            "mode": "extract",
-            "url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/checksums-v$version.txt"
-        }
+        "url":"https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/hack-browser-data-windows-64bit.zip"
     }
 }
