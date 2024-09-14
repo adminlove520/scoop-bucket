@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/7kbstorm/7kbscan-WebPathBrute/releases/download/$uri/7kbscan-WebPathBrute.$version.zip"
+                "url": "https://github.com/7kbstorm/7kbscan-WebPathBrute/releases/download/$version/7kbscan-WebPathBrute.$version.zip"
             }
         }
     }
