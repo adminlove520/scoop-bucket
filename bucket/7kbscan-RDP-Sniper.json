@@ -7,9 +7,5 @@
     "hash": "88183816597089221d7c9f1da95f7173b1ff503ce414a576c80735cf273bfad1",
     "bin": [
         "Rdpscan.exe"
-    ],
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/7kbstorm/7kbscan-RDP-Sniper/releases/download/$version/Rdpscan.rar"
-    }
+    ]
 }
