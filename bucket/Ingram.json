@@ -3,7 +3,11 @@
     "description": "网络摄像头漏洞扫描工具 | Webcam vulnerability scanning tool",
     "homepage": "https://github.com/jorhelp/Ingram",
     "license": "GPL-3.0",
-    "suggest":  {"python":["python3.8"]},
+    "suggest":  {
+        "python":[
+            "python3.8"
+            ]
+        },
     "url": "https://github.com/jorhelp/Ingram/archive/refs/heads/master.zip",
     "hash":"707fa56866d0c366fe960a24dfabe5e86c090aab33bfa2af8d6e64ae5189efe8",
     "pre_install": "Set-Content \"$dir\\Ingram.bat\" '@pushd %~dp0\npython3 run_ingram.py %*\n@popd' -Encoding Ascii",
