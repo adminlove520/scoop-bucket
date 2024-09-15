@@ -11,6 +11,9 @@
     "bin": [
         "enscan.exe"
     ],
+    "persist":[
+        "config.yaml"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/wgpsec/ENScan_GO/releases/download/$version/enscan-$version-windows-amd64.zip"
