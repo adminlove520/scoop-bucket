@@ -16,13 +16,10 @@
         "@start javaw.exe -jar \"SpringBootVul_GUI.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "bin": "SpringBootVul-GUI.bat",
-    "shortcuts": [
-        [
-            "SpringBootVul-GUI.bat",
-            "SpringBootVul-GUI"
-        ]
+    "post_install": [
+        "Move-Item -Path \"$dir\\SpringBootVul_GUI\\*\" -Destination \"$dir\\\""
     ],
+    "bin": "SpringBootVul-GUI.bat",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/wh1t3zer/SpringBootVul-GUI/releases/download/v$version/SpringBootVul_GUI.zip"
