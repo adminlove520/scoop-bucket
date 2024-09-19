@@ -13,7 +13,7 @@
     "hash": "68acecfe2169324fbe9cd6c4ed14a49e1390344a541ca755820e5e34b233ba35",
     "pre_install": [
         "Set-Content \"$dir\\cloudSec.bat\" '@pushd %~dp0",
-        "@start javaw.exe -jar \"cloudSec.jar\" %*",
+        "@cmd /c java.exe -jar \"cloudSec.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
     "bin": "cloudSec.bat",
