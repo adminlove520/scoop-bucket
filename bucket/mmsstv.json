@@ -3,7 +3,7 @@
     "description": "使用 Windows 和声卡WinXP - Vista - Win7 慢速扫描电视",
     "homepage": "https://hamsoft.ca/pages/mmsstv.php",
     "license": "unknown",
-    "url": "https://github.com/20142995/MMSSTV/releases/download/1.13A/MMSSTV.zip",
-    "hash":"713d6f476a284f7bd83d97e68ca9dc3f64864139498d44e70737e94633e20ab9",
+    "url": "https://github.com/20142995/MMSSTV/releases/download/1.13A/MMSSTV.exe",
+    "hash":"d37a36522e5fb1bbd3d77cf212fb0b1132aeea668d67c999360e67b82d356f86",
     "bin":"MMSSTV.exe"
 }
