@@ -1,0 +1,12 @@
+{
+    "version": "1.8.39",
+    "description": "一个有点好用的信息收集工具。A somewhat useful information gathering tool.",
+    "homepage": "https://github.com/niudaii/zpscan",
+    "license": "unknow",
+    "url": "https://github.com/niudaii/zpscan/releases/download/v1.8.39/zpscan_windows.exe#/zpscan.exe",
+    "bin": "zpscan.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/niudaii/zpscan/releases/download/v$version/zpscan_windows.exe#/zpscan.exe"
+    }
+}
