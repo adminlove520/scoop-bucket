@@ -4,6 +4,7 @@
     "homepage": "https://github.com/niudaii/zpscan",
     "license": "unknow",
     "url": "https://github.com/niudaii/zpscan/releases/download/v1.8.39/zpscan_windows.exe#/zpscan.exe",
+    "hash":"5c160d1386da71fa785c8e37defaa2344e4b91f7efb6f26fab05e4e137a5318c",
     "bin": "zpscan.exe",
     "checkver": "github",
     "autoupdate": {
