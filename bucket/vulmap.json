@@ -21,7 +21,7 @@
         "pip3 install -r \"$dir\\requirements.txt\""
     ],
     "bin": "vulmap.bat",
-	"checkver": "github",
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/zhzyker/vulmap/archive/refs/tags/v$version.zip"
     }
