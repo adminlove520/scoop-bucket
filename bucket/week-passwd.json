@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "description": "FTP,SSH,MYSQL,MSSQL等弱口令爆破工具！",
+    "homepage": "https://github.com/BBD-YZZ/week-passwd",
+    "license": "unknow",
+    "url": "https://github.com/BBD-YZZ/week-passwd/releases/download/v1.0.0/week-passwd-v1.0.0.exe#/week-passwd.exe",
+    "hash": "a284524199e882d460b65a9e8cfd0088b4cbb39efb7cafdca200c6faaa252939",
+    "bin": "week-passwd.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/BBD-YZZ/week-passwd/releases/download/v$version/week-passwd-v$version.exe#/week-passwd.exe"
+    }
+}
