@@ -12,7 +12,7 @@
     "hash": "1c0b1bc6efe6dc211be35b7186242487d7ecf37f3f51cb70228af5a1bb55415f",
     "pre_install": [
         "Set-Content \"$dir\\Acropalypse-Multi-Tool.bat\" '@pushd %~dp0",
-        "@python3 \"run.py\" %*",
+        "@python3 \"gui.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
