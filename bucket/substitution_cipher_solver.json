@@ -12,7 +12,7 @@
     "hash":"2d6a37fb7e77bedc7656b514b734e9172de8069783a24316082addda13a4987e",
     "pre_install": [
         "Set-Content \"$dir\\substitution_cipher_solver.bat\" '@pushd %~dp0",
-        "@python3 \"decrypt.py.py\" %*",
+        "@python3 \"decrypt.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
