@@ -5,14 +5,14 @@
     "license": "unknow",
     "suggest":  {
         "python":[
-            "python2"
+            "python3"
             ]
         },
     "url": "https://github.com/Cliffordwr/cloacked-pixel-python3/archive/refs/heads/master.zip",
     "hash":"0d2162a930ffc843a86b5fbebb775432ae86f29f5d623fc031f3638159097fad",
     "pre_install": [
         "Set-Content \"$dir\\cloacked-pixel-py3.bat\" '@pushd %~dp0",
-        "@python2 \"lsb.py\" %*",
+        "@python3 \"lsb.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
