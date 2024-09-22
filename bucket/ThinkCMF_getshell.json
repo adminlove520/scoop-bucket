@@ -5,14 +5,14 @@
     "license": "unknown",
     "suggest":  {
         "python":[
-            "python3"
+            "python2"
             ]
         },
     "url": "https://github.com/jas502n/ThinkCMF_getshell/archive/refs/heads/master.zip",
     "hash":"e9b06d5b168dd51d78c0ee708296bdb40b2a57bfeac9840d67f77366f8885947",
     "pre_install": [
         "Set-Content \"$dir\\ThinkCMF_getshell.bat\" '@pushd %~dp0",
-        "@python3 \"ThinkCMF_getshell.py\" %*",
+        "@python2 \"ThinkCMF_getshell.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
