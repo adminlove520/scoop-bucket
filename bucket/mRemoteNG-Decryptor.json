@@ -11,7 +11,7 @@
     "url": "https://github.com/ybdt/mRemoteNG-Decryptor/archive/refs/heads/master.zip",
     "hash":"f68f1eb79c38bcd1c57473e6b094c4217942a8aeafbb8d0476c762f1a15a485e",
     "pre_install": [
-        "Set-Content \"$dir\\SSRFmap.bat\" '@pushd %~dp0",
+        "Set-Content \"$dir\\mRemoteNG-Decryptor.bat\" '@pushd %~dp0",
         "@python3 \"mRemoteNG-Decryptor.py\" %*",
         "@popd' -Encoding Ascii"
     ],
