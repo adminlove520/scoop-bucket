@@ -9,7 +9,7 @@
         ]
     },
     "url": "https://github.com/Marven11/Fenjing/archive/refs/tags/v0.6.9.zip",
-    "hash": "",
+    "hash": "d1fc3b0941ace805e489e294670e8fc25b12303ad5f43d63416ca63c1342a275",
     "pre_install": [
         "Set-Content \"$dir\\ssti_Fenjing.bat\" '@pushd %~dp0",
         "@cmd /c Fenjing %*",
