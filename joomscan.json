@@ -20,7 +20,7 @@
         "Remove-Item \"$dir\\joomscan-$version\" -Force -Recurse"
     ],
     "bin": "joomscan.bat",
-	"checkver": "github",
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/OWASP/joomscan/archive/refs/tags/$version.zip"
     }
