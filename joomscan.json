@@ -1,0 +1,27 @@
+{
+    "version": "0.0.7",
+    "description": "",
+    "homepage": "https://github.com/OWASP/joomscan",
+    "license": "unknown",
+    "suggest": {
+        "perl":[
+            "perl"
+        ]
+    },
+    "url": "https://github.com/OWASP/joomscan/archive/refs/tags/0.0.7.zip",
+    "hash": "",
+    "pre_install": [
+        "Set-Content \"$dir\\joomscan.bat\" '@pushd %~dp0",
+        "@perl \"joomscan.pl\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "post_install": [
+        "Move-Item -Path \"$dir\\joomscan-$version\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\joomscan-$version\" -Force -Recurse"
+    ],
+    "bin": "joomscan.bat",
+	"checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/OWASP/joomscan/archive/refs/tags/$version.zip"
+    }
+}
