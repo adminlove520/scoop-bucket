@@ -5,7 +5,7 @@
     "license": "MIT",
     "notes": "config location: C:\\Users\\<your username>\\AppData\\Roaming\\observer_ward",
     "url": "https://github.com/0x727/ObserverWard/releases/download/v2024.9.20/observer_ward_v2024.9.20_i686-pc-windows-msvc.zip",
-    "hash": "13864b0a3fd9808d9a425161e09c2fd2b4dd883914856aad8359e7cd9dac5205",
+    "hash": "05b42218fd8c5abd68dc82e993d5eef6cf46509d606d38ef1df689151666091d",
     "bin": "observer_ward.exe",
     "checkver": {
         "github": "https://github.com/0x727/ObserverWard"
