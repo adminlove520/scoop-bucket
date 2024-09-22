@@ -10,7 +10,7 @@
         ]
     },
     "url": "https://github.com/qi4L/JYso/releases/download/v1.3.4/JYso-1.3.4.jar#/JYso.jar",
-    "hash": "d97a9641d6a00babe3173249e4bc24a12c8d9271da683630de926edbaa3ff962",
+    "hash": "1fdf7abce0292a6690a697624668d111c83048cea298d900da5e9bcaed157dd5",
     "pre_install": [
         "Set-Content \"$dir\\JYso.bat\" '@pushd %~dp0",
         "@cmd /c java.exe -jar \"JYso.jar\" %*",
