@@ -12,7 +12,7 @@
     "hash":"f68f1eb79c38bcd1c57473e6b094c4217942a8aeafbb8d0476c762f1a15a485e",
     "pre_install": [
         "Set-Content \"$dir\\mRemoteNG-Decryptor.bat\" '@pushd %~dp0",
-        "@python3 \"mRemoteNG-Decryptor.py\" %*",
+        "@python3 \"mRemoteNG-Decrypt.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
