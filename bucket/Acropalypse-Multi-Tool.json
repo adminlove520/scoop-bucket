@@ -21,7 +21,7 @@
         "pip3 install -r \"$dir\\requirements.txt\""
     ],
     "bin": "Acropalypse-Multi-Tool.bat",
-	"checkver": "github",
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/frankthetank-music/Acropalypse-Multi-Tool/archive/refs/tags/v$version.zip"
     }

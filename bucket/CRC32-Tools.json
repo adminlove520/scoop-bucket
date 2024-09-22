@@ -20,7 +20,7 @@
         "Remove-Item \"$dir\\CRC32-Tools-$version\" -Force -Recurse"
     ],
     "bin": "CRC32-Tools.bat",
-	"checkver": "github",
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/AabyssZG/CRC32-Tools/archive/refs/tags/$version.zip"
     }
