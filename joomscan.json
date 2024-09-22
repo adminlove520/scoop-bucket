@@ -1,6 +1,6 @@
 {
     "version": "0.0.7",
-    "description": "",
+    "description": "OWASP Joomla 漏洞扫描程序项目 https://www.secologist.com/",
     "homepage": "https://github.com/OWASP/joomscan",
     "license": "unknown",
     "suggest": {
