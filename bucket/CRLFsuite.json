@@ -21,7 +21,7 @@
         "pip3 install crlfsuite -U"
     ],
     "bin": "CRLFsuite.bat",
-	"checkver": "github",
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Raghavd3v/CRLFsuite/archive/refs/tags/v$version.zip"
     }

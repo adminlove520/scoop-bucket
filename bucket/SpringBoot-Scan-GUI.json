@@ -21,7 +21,7 @@
         "pip3 install -r \"$dir\\requirements.txt\""
     ],
     "bin": "SpringBoot-Scan-GUI.bat",
-	"checkver": "github",
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/13exp/SpringBoot-Scan-GUI/archive/refs/tags/v$version.zip"
     }

@@ -16,7 +16,6 @@
         "@start javaw.exe -jar \"SpringBootVul_GUI.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "post_install": "Move-Item -Path \"$dir\\SpringBootVul_GUI\\*\" -Destination \"$dir\\\"",
     "bin": "SpringBootVul-GUI.bat",
     "checkver": "github",
     "autoupdate": {

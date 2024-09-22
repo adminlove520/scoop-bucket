@@ -21,7 +21,7 @@
         "pip3 install fenjing -U"
     ],
     "bin": "ssti_Fenjing.bat",
-	"checkver": "github",
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Marven11/Fenjing/archive/refs/tags/v$version.zip"
     }
