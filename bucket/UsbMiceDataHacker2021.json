@@ -16,8 +16,8 @@
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\UsbMiceDataHacker-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\UsbMiceDataHacker-main\" -Force -Recurse"
+        "Move-Item -Path \"$dir\\UsbMiceDataHacker2021-main\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\UsbMiceDataHacker2021-main\" -Force -Recurse"
     ],
     "bin": "UsbMiceDataHacker.bat",
     "checkver": {
