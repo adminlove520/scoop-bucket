@@ -1,0 +1,31 @@
+{
+    "version": "2024-09-24T13.26.52",
+    "description": "USB键盘流量包取证工具 , 用于恢复用户的击键信息",
+    "homepage": "https://github.com/WangYihang/UsbKeyboardDataHacker",
+    "license": "unknown",
+    "suggest":  {
+        "python":[
+            "python3"
+            ]
+        },
+    "url": "https://github.com/WangYihang/UsbKeyboardDataHacker/archive/refs/heads/master.zip",
+    "hash":"0d5f40ef78c1ac2f4e62bd7e7ad8407782ead8c256cf3e3302f6f87ac38b2357",
+    "pre_install": [
+        "Set-Content \"$dir\\UsbKeyboardDataHacker.bat\" '@pushd %~dp0",
+        "@python3 \"UsbKeyboardDataHacker.py\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "post_install": [
+        "Move-Item -Path \"$dir\\UsbKeyboardDataHacker-master\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\UsbKeyboardDataHacker-master\" -Force -Recurse"
+    ],
+    "bin": "UsbKeyboardDataHacker.bat",
+    "checkver": {
+        "url": "https://api.github.com/repos/WangYihang/UsbKeyboardDataHacker/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
+    },
+    "autoupdate": {
+        "url": "https://github.com/WangYihang/UsbKeyboardDataHacker/archive/refs/heads/master.zip"
+    }
+}
