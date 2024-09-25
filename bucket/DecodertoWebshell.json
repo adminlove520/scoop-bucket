@@ -1,7 +1,7 @@
 {
     "version": "1.2",
     "description": "冰蝎、哥斯拉解密",
-    "homepage": "https://github.com/20142995/file/releases/download/DecodertoWebshell_1.2.jar",
+    "homepage": "https://github.com/20142995/file",
     "license": "UNKNOW",
     "suggest": {
         "JDK": [

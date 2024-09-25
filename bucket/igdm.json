@@ -1,7 +1,7 @@
 {
     "version": "3.0.4",
     "description": "Desktop application for Instagram DMs",
-    "homepage": "https://github.com/igdmapps/igdm/",
+    "homepage": "https://github.com/igdmapps/igdm",
     "license": "MIT",
     "architecture": {
         "64bit": {

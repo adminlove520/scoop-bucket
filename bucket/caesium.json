@@ -1,7 +1,7 @@
 {
     "version": "2.7.0",
     "description": "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats.",
-    "homepage": "https://github.com/Lymphatus/caesium-image-compressor/",
+    "homepage": "https://github.com/Lymphatus/caesium-image-compressor",
     "license": "GPL-3.0",
     "suggest": {
         "vcredist": "extras/vcredist2019"

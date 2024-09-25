@@ -1,7 +1,7 @@
 {
     "version": "1.0",
     "description": "FastJson_JackSon",
-    "homepage": "https://github.com/20142995/file/releases/download/FastJson_JackSon.zip",
+    "homepage": "https://github.com/20142995/file",
     "license": "UNKNOW",
     "suggest": {
         "JDK": [
