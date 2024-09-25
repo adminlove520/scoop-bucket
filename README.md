@@ -27,7 +27,7 @@ Scoop**是一款适用于Windows平台的命令行软件（包）管理工具**�
 4. 管理员执行安装脚本
 
    ```
-   .\install.ps1 -RunAsAdmin -ScoopDir 'D:\Base' -ScoopGlobalDir 'D:\Global' -NoProxy
+   .\install.ps1 -RunAsAdmin -ScoopDir 'D:\Tools'
    ```
 
    其中`-RunAsAdmin`是使用管理员角色执行脚本，`-ScoopDir`指定scoop安装目录，软件默认安装在此。`-ScoopGlobalDir`指定全局程序安装到自定义目录。
