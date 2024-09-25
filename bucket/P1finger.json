@@ -4,7 +4,7 @@
     "homepage": "https://github.com/P001water/P1finger",
     "license": "MIT",
     "url": "https://github.com/P001water/P1finger/releases/download/P1finger_0.0.3/P1finger64.exe#/P1finger.exe",
-    "hash": "ee603040a02a76bbdf231b3f62f6ddbe256576e53580bcddfdbf02857076a53e",
+    "hash": "25411f38add0bf7caa07376084ce5abdbaf4ab1ad76ee485b59387e0db46a32b",
     "bin": [
         [
             "P1finger.exe",
