@@ -1,0 +1,13 @@
+{
+    "version": "3.2.0",
+    "description": "Burp插件，让你测试加密报文时像明文一样简单，支持用js/python/java实现hook脚本或任意语言实现grpc/http hook服务来自动解密报文。A Burp plugin makes testing encrypted messages as simple as plain text, supporting the use of js/python/java to implement hook scripts or any language to implement grpc/http hook services to automatically decrypt messages.",
+    "homepage": "https://github.com/outlaws-bai/Galaxy",
+    "license": "unknown",
+    "url": "https://github.com/outlaws-bai/Galaxy/releases/download/3.2.0/Galaxy-3.2.0-graalpy.jar#/Galaxy.jar",
+    "hash": "9f587212c19a38ae01790f84b6fb16178670b7b702ab6bfedc55f388fad121e4",
+    "bin": "Galaxy.jar",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/outlaws-bai/Galaxy/releases/download/$version/Galaxy-$version-graalpy.jar#/Galaxy.jar"
+    }
+}
