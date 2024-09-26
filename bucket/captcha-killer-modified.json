@@ -18,7 +18,7 @@
     "post_install": [
         "Move-Item -Path \"$dir\\captcha-killer-modified-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\captcha-killer-modified-main\" -Force -Recurse",
-        "pip3 install -r \"$dir\\requirements.txt\""
+        "pip3 install -r \"$dir\\requirement.txt\""
     ],
     "bin": "codereg.bat",
     "checkver": {
