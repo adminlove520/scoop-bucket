@@ -1,0 +1,13 @@
+{
+    "version": "2.7.4",
+    "description": "Python for the Java Platform",
+    "homepage": "https://github.com/jython/jython",
+    "license": "unknown",
+    "url": "https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.4/jython-standalone-2.7.4.jar#/jython-standalone.jar",
+    "hash": "46bf22b4b6f349fc0c63c2e9275b74b78f116db8cc21edd741a47ab27958568a",
+    "bin": "jython-standalone.jar",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://repo1.maven.org/maven2/org/python/jython-standalone/$version/jython-standalone-$version.jar#/jython-standalone.jar"
+    }
+}
