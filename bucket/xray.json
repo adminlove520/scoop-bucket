@@ -11,13 +11,9 @@
         "    warn 'GenerateToFile CA certificate and key ...'",
         "    Start-Process -NoNewWindow -FilePath \"$dir\\xray.exe\" -WorkingDirectory \"$dir\" -ArgumentList @('genca') -Wait | Out-Null ",
         "}",
-        "Set-Content \"$dir\\xray_7777.bat\" '@pushd %~dp0\n@start xray.exe ws --listen 127.0.0.1:27777 --html-output \"%date:~0,4%-%date:~5,2%-%date:~8,2%_%time:~0,2%-%time:~3,2%-%time:~6,2%_listen_xray.html\"\n@popd' -Encoding Ascii"
+        "Set-Content \"$dir\\xray_7777.bat\" '@pushd %~dp0\n@start xray.exe ws --listen 127.0.0.1:7777 --html-output \"%date:~0,4%-%date:~5,2%-%date:~8,2%_%time:~0,2%-%time:~3,2%-%time:~6,2%_listen_xray.html\"\n@popd' -Encoding Ascii"
     ],
     "bin": "xray.exe",
-    "persist": [
-        "ca.crt",
-        "ca.key"
-    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/20142995/xray/releases/download/$version/xray.exe"
