@@ -1,23 +1,29 @@
 {
-    "version": "2023.9.1",
     "description": "The leading toolkit for web security testing.",
     "homepage": "https://portswigger.net/",
     "license": "Proprietary",
-    "notes": [
-        "PST专用版，删除内嵌Linux|Mac浏览器，删除自带Jre，请修改bat启动脚本中的Java Home地址",
-        "需要自行注册,方法请参考文件-说明.txt"
-    ],
-    "suggest": {
-        "jdk":[
-            "java/liberica17-jre"
-        ]
+    "version": "2024.7.6",
+    "notes": "需要自行注册",
+    "architecture": {
+        "64bit": {
+            "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.7.6&type=Jar",
+            "hash": "2b2382bebc2fb4e8b4abcd6ea020f7f8753e1570766253f2b54f39477282d699"
+        }
     },
-    "url": "http://pan.assass1n.top/directlink/Share/BurpSuite%20V2023.9.1.zip",
-    "hash": "cebb3a8bb4ab861403bc506ebeda6c4e783803e9a42e3b988bfd8cf97ff758eb",
-    "bin": [
-        [
-            "CN-JRE Burp.bat",
-            "Burpsuite"
-        ]
-    ]
+    "checkver": {
+        "url": "https://portswigger.net/burp/releases/data?pageSize=4",
+        "jp": "$.ResultSet.Results.[?(@.releaseChannels[0] == 'Stable' && @.title =~ /Professional.*/)].version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=$version&type=Jar"
+            }
+        },
+        "hash": {
+            "mode": "json",
+            "url": "https://portswigger.net/burp/releases/data?pageSize=4",
+            "jp": "$.ResultSet.Results.[?(@.releaseChannels[0] == 'Stable' && @.title =~ /Professional.*/)].builds.[?(@.ProductId == 'pro' && @.ProductPlatform == 'Jar')].Md5Checksum"
+        }
+    }
 }
