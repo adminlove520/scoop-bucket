@@ -6,7 +6,7 @@
     "notes": "需要自行注册",
     "architecture": {
         "64bit": {
-            "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.7.6&type=Jar",
+            "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.7.6&type=Jar#/burpsuite_pro.jar",
             "hash": "990596457f046b4bc0fd2c35ae3821be79d8e629c3d162482f2092cc0ca1450f"
         }
     },
