@@ -10,7 +10,7 @@
         }
     },
     "extract_dir": "jdk-23",
-    "pre_install": "Set-Content \"$dir\\oraclejdk.bat\" '@pushd %~dp0\n@set JAVA_HOME=$dir\n@set path=%JAVA_HOME%\\bin;%path%;\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\oraclejdk.bat\" '@pushd %~dp0\n@set JAVA_HOME=%~dp0\n@set path=%JAVA_HOME%\\bin;%path%;\n@popd' -Encoding Ascii",
     "bin":"oraclejdk.bat",
     "checkver": {
         "url": "https://www.oracle.com/java/technologies/downloads",
