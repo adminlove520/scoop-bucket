@@ -20,7 +20,7 @@
         "Remove-Item \"$dir\\python-uncompyle6-master\" -Force -Recurse",
         "pip3 install uncompyle6 -U"
     ],
-
+    "bin":"uncompyle.bat",
     "checkver": {
         "url": "https://api.github.com/repos/rocky/python-uncompyle6/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
