@@ -9,7 +9,7 @@
             ]
         },
     "url": "https://github.com/guofei9987/blind_watermark/archive/refs/heads/master.zip",
-    "hash":"",
+    "hash":"15b728be56274254a51b27387e56ffe794fb7a027b1e65d977646a0de0bcb664",
     "pre_install": [
         "Set-Content \"$dir\\blind-watermark.bat\" '@pushd %~dp0",
         "@cmd /c blind_watermark %*",
