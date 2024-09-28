@@ -1,10 +1,10 @@
 {
-    "version": "1.8.9",
+    "version": "1.9.0",
     "description": "EZ是一款集信息收集、端口扫描、服务暴破、URL爬虫、指纹识别、被动扫描为一体的跨平台漏洞扫描器。",
     "homepage": "https://github.com/m-sec-org/EZ",
     "license": "unknown",
-    "url": "https://github.com/m-sec-org/EZ/releases/download/1.8.9/ez_windows_amd64.exe.zip",
-    "hash": "24aefa05d2ba6b3d2c5345b4bb09c7eaca712cfcb05f7a0d96fc1075c2f212d7",
+    "url": "https://github.com/m-sec-org/EZ/releases/download/1.9.0/ez_windows_amd64.zip",
+    "hash": "ca4ecb3c0931ec5cb40294207913e7bc47a56629afca4773c99afaea7c506e13",
     "bin": "ez_windows_amd64.exe",
     "checkver": "github",
     "autoupdate": {
