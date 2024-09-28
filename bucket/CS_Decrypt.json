@@ -18,7 +18,7 @@
     "post_install": [
         "Move-Item -Path \"$dir\\CS_Decrypt-main\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\CS_Decrypt-main\" -Force -Recurse",
-        "pip3 install pycryptodome"
+        "pip3 install pycryptodome javaobj-py3"
     ],
     "bin": "CS_Decrypt.bat",
     "checkver": {
