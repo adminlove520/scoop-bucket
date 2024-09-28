@@ -8,6 +8,6 @@
     "bin": "LaZagne.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/AlessandroZ/LaZagne/releases/download/$version/LaZagne.exe"
+        "url": "https://github.com/AlessandroZ/LaZagne/releases/download/v$version/LaZagne.exe"
     }
 }

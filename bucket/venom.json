@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Dliv3/Venom/releases/download/$version/Venom.$version.7z"
+                "url": "https://github.com/Dliv3/Venom/releases/download/v$version/Venom.v$version.7z"
             }
         }
     }

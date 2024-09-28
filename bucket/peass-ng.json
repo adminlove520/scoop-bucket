@@ -47,7 +47,11 @@
             "winPEAS"
         ]
     ],
-    "checkver": "github",
+    "checkver":  {
+        "url": "https://api.github.com/repos/carlospolop/PEASS-ng/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "([\\d\\w-]+])"
+    },
     "autoupdate": {
                 "url": [
                         "https://github.com/carlospolop/PEASS-ng/releases/download/$version/linpeas.sh",

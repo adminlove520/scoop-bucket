@@ -1,5 +1,5 @@
 {
-    "version": "v1.5.0",
+    "version": "1.5.0",
     "description": "🔨 A modern multiple reverse shell sessions manager written in go",
     "homepage": "https://github.com/WangYihang/Platypus",
     "license": "LGPL-3.0",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/WangYihang/Platypus/releases/download/$version/Platypus_windows_amd64.exe"
+                "url": "https://github.com/WangYihang/Platypus/releases/download/v$version/Platypus_windows_amd64.exe"
             }
         }
     }

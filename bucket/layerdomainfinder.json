@@ -9,13 +9,5 @@
             "hash": "1efabfcec78342a01d7c0e043bb9aa149c5cc984b36f45832b1602cd69440660"
         }
     },
-    "bin": "Layer.exe",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/euphrat1ca/LayerDomainFinder/releases/download/$version/Layer$version.zip"
-            }
-        }
-    }
+    "bin": "Layer.exe"
 }

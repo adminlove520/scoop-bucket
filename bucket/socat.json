@@ -15,6 +15,5 @@
             "socat-windows-1.7.2.1\\socat.exe",
             "socat"
         ]
-    ],
-    "checkver": "github"
+    ]
 }

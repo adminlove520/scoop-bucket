@@ -8,6 +8,6 @@
     "bin": "ez_windows_amd64.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/m-sec-org/EZ/releases/download/$version/ez_windows_amd64.exe.zip"
+        "url": "https://github.com/m-sec-org/EZ/releases/download/$version/ez_windows_amd64.zip"
     }
 }

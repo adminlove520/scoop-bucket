@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.3",
+    "version": "1.0.3",
     "description": "A tool to perform Kerberos pre-auth bruteforcing.",
     "homepage": "https://github.com/ropnop/kerbrute",
     "license": " Apache-2.0",
@@ -8,6 +8,6 @@
     "bin":"kerbrute.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ropnop/kerbrute/releases/download/$version/kerbrute_windows_amd64.exe#/kerbrute.exe"
+        "url": "https://github.com/ropnop/kerbrute/releases/download/v$version/kerbrute_windows_amd64.exe#/kerbrute.exe"
     }
 }

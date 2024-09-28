@@ -19,6 +19,6 @@
     "bin": "SiteScan.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/kracer127/SiteScan/releases/download/v.$version/SiteScan.v$version.zip"
+        "url": "https://github.com/kracer127/SiteScan/releases/download/v$version/SiteScan.v$version.zip"
     }
 }
