@@ -5,13 +5,12 @@
     "license": "unkown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/winezer0/whatweb-plus/releases/download/v0.5.5.20/whatweb-0.5.5.20.exe",
+            "url": "https://github.com/winezer0/whatweb-plus/releases/download/v0.5.5.20/whatweb-0.5.5.20.exe#/whatweb.exe",
             "hash": "3f5290b6a463a2330bed539324be34cafc78880befad236b6a1d6415b0133da1"
         }
     },
     "bin": "whatweb.exe",
     "pre_install": [
-        "Get-ChildItem \"$dir\\whatweb.*.exe\" | Rename-Item -NewName 'whatweb.exe'",
         "git clone -q 'https://github.com/winezer0/whatweb-plus-plugins' \"$dir\\whatweb-plus-plugins\""
     ],
     "post_install": [
@@ -22,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/winezer0/whatweb-plus/releases/download/v$version/whatweb-$version.exe"
+                "url": "https://github.com/winezer0/whatweb-plus/releases/download/v$version/whatweb-$version.exe#/whatweb.exe"
             }
         }
     }
