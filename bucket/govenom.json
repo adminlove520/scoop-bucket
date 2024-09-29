@@ -10,7 +10,11 @@
         }
     },
     "bin": "Govenom.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/arch3rPro/Govenom/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "([\\w.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

@@ -1,5 +1,5 @@
 {
-    "version": "v1.00",
+    "version": "1.00",
     "description": "又一个土豆，使用PrintNotify COM服务进行提权",
     "homepage": "https://github.com/BeichenDream/PrintNotifyPotato",
     "license": "Freeware",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/BeichenDream/PrintNotifyPotato/releases/download/$version/PrintNotifyPotato-NET46.exe"
+                "url": "https://github.com/BeichenDream/PrintNotifyPotato/releases/download/v$version/PrintNotifyPotato-NET46.exe"
             }
         }
     }
