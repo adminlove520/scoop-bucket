@@ -14,7 +14,7 @@
     "extract_dir":"dubbo-exp-master",
     "pre_install": [
         "Move-Item -Path \"$dir\\bin\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\dubbo-exp-1.0-SNAPSHOT-jar-with-dependencies.jar\"  \"$dir\\dubbo-exp.jar\"  -Force -Recurse",
+        "Get-ChildItem \"$dir\" 'dubbo-exp-*-SNAPSHOT-jar-with-dependencies.jar' | Select-Object -First 1 | Rename-Item -NewName 'dubbo-exp.jar'",
         "Set-Content \"$dir\\dubbo-exp.bat\" '@pushd %~dp0\n@cmd /c java.exe -jar \"dubbo-exp.jar\" %*\n@popd' -Encoding Ascii"
     ],
     "bin": "dubbo-exp.bat",
