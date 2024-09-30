@@ -1,5 +1,5 @@
 {
-    "version": "0.0.9",
+    "version": "0.1.0",
     "description": "一个半自动化springboot打点工具，内置目前springboot所有漏洞",
     "homepage": "https://github.com/wh1t3zer/SpringBootVul-GUI",
     "license": "Freeware",
@@ -9,8 +9,8 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/wh1t3zer/SpringBootVul-GUI/releases/download/v0.0.9/SpringBootVul_GUI.zip",
-    "hash": "9fd9fc2c4f9fd3752b074cdef41c097aa5e2530d5984685b1da35100f8b22182",
+    "url": "https://github.com/wh1t3zer/SpringBootVul-GUI/releases/download/v0.1.0/SpringBootVul_GUI.zip",
+    "hash": "a0e28653da52485d358b9ea1e812633026dec6db84c89d74de33667ad35c0423",
     "pre_install": [
         "Set-Content \"$dir\\SpringBootVul-GUI.bat\" '@pushd %~dp0",
         "@start javaw.exe -jar \"SpringBootVul_GUI.jar\" %*",
