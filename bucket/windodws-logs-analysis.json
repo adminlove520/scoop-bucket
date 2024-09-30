@@ -5,10 +5,7 @@
     "license": "unknown",
     "url": "https://github.com/dogadmin/windodws-logs-analysis/archive/refs/heads/master.zip",
     "hash":"e1521a2cacddf30367e0098fac28c211e8fac5f972c890e8376fd35a68762af7",
-    "post_install": [
-        "Move-Item -Path \"$dir\\windodws-logs-analysis-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\windodws-logs-analysis-master\" -Force -Recurse"
-    ],
+    "extract_dir":"windodws-logs-analysis-master",
     "bin": [
         "windowslog-local.exe",
         "windowslog.exe"
