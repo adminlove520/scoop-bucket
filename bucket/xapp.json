@@ -5,12 +5,15 @@
     "license": "Unkown",
     "url": "https://github.com/chaitin/xapp/releases/download/xapp-0.0.2/xapp_windows_amd64.exe#/xapp.exe",
     "hash": "867f00b3bb3cfeff50e307d716e60399c4b060dd6c267080456d25045130ee44",
-    "bin": [
-        [
-            "xapp.exe",
-            "xapp"
-        ]
+    "post_install": [
+        "Invoke-WebRequest -URI \"https://github.com/chaitin/xray-plugins/archive/refs/heads/main.zip\" -OutFile \"$dir\\xray-plugins.zip\"",
+        "7z x \"$dir\\xray-plugins.zip\" -o\"$dir\\\"",
+        "if (!(Test-Path $destination)) {",
+        "New-Item -ItemType Directory -Path $destination",
+        "}",
+        "Move-Item -Path \"$dir\\xray-plugins-main\\finger\\*\" -Destination \"$dir\\\" -Force"
     ],
+    "bin": "xapp.exe",
     "checkver": {
         "url": "https://api.github.com/repos/chaitin/xapp/releases/latest",
         "jsonpath": "$.tag_name",
