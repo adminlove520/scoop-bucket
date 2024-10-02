@@ -9,7 +9,7 @@
         "git clone -q 'https://github.com/chaitin/xray-plugins' \"$dir\\xray-plugins\""
     ],
     "post_install": [
-        "$destination = \"$env:UserProfile.xray\\xapp\\plugins\"",
+        "$destination = \"$env:UserProfile\\.xray\\xapp\\plugins\"",
         "if (!(Test-Path $destination)) {",
         "New-Item -ItemType Directory -Path $destination",
         "}",
