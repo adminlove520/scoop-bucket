@@ -17,7 +17,7 @@
         "url": "https://api.github.com/repos/HotBoy-java/PotatoTool/releases/latest",
         "jsonpath": "$.tag_name",
         "regex": "ReleaseV([\\d.]+)"
-    },,
+    },
     "autoupdate": {
         "url": "https://github.com/HotBoy-java/PotatoTool/releases/download/ReleaseV$version/PotatoTool-$version-jdk8.jar#/PotatoTool.jar"
     }
