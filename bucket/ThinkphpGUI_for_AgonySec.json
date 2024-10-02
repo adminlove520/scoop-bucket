@@ -13,7 +13,7 @@
     "hash": "",
     "pre_install": "Set-Content \"$dir\\ThinkphpGUI_for_AgonySec.bat\" '@pushd %~dp0\n@start javaw.exe -jar \"ThinkphpGUI.jar\" %*\n@popd' -Encoding Ascii",
     "bin": "ThinkphpGUI_for_AgonySec.bat",
-    "checkver": "checkver": {
+    "checkver": {
         "url": "https://api.github.com/repos/AgonySec/ThinkPHPGUI/releases/latest",
         "jsonpath": "$.tag_name",
         "regex": " ThinkPHPGUI_V([\\d.]+)"
