@@ -1,15 +1,13 @@
 {
-    "version": "2024-09-21T11.29.12",
+    "version": "2024-10-04T08.46.26",
     "description": "跨版本 Python 字节码反编译器",
     "homepage": "https://github.com/rocky/python-uncompyle6",
     "license": "unknown",
-    "suggest":  {
-        "python":[
-            "python3"
-            ]
-        },
+    "suggest": {
+        "python": "python3"
+    },
     "url": "https://github.com/rocky/python-uncompyle6/archive/refs/heads/master.zip",
-    "hash":"0eb4823db94a57c1234fac598cd12813112abc98dc63d2d0f1c9d3bb0214881e",
+    "hash": "3f201f2424f19218cfca8adb36747db1eab6d7a07a123c287811f1be06bcd332",
     "pre_install": [
         "Set-Content \"$dir\\uncompyle.bat\" '@pushd %~dp0",
         "@cmd /c uncompyle6 %*",
@@ -20,7 +18,7 @@
         "Remove-Item \"$dir\\python-uncompyle6-master\" -Force -Recurse",
         "pip3 install uncompyle6 -U"
     ],
-    "bin":"uncompyle.bat",
+    "bin": "uncompyle.bat",
     "checkver": {
         "url": "https://api.github.com/repos/rocky/python-uncompyle6/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
