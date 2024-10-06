@@ -1,11 +1,11 @@
 {
-    "version": "1.9.3",
+    "version": "1.9.11",
     "description": " 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc ",
-    "homepage": "https://github.com/chaitin/xray",
+    "homepage": "https://github.com/NHPT/Xray_Cracked",
     "license": "Freeware",
-
-    "url": "https://github.com/20142995/xray/releases/download/1.9.3/xray.exe",
-    "hash": "6a228d414ae13d3ceb141eddee9efdaf1d939dd942e9aa31f8c66fa6e8a5ba5d",
+    "url": "https://github.com/NHPT/Xray_Cracked/releases/download/v1.9.11/xray_windows_amd64.exe#/xray.exe",
+    "hash": "0f5e62026e74e038e789655b7a4a497e0190899adedb9e1865c4dc68148855e6",
+    "post_install": "Invoke-WebRequest -URI \"https://github.com/NHPT/Xray_Cracked/releases/download/v1.9.11/xray-license.lic\" -OutFile \"$dir\\xray-license.lic\"",
     "pre_install": [
         "if (!(Test-Path \"$dir\\ca.crt\")) {",
         "    warn 'GenerateToFile CA certificate and key ...'",
@@ -16,6 +16,6 @@
     "bin": "xray.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/20142995/xray/releases/download/$version/xray.exe"
+        "url": "https://github.com/NHPT/Xray_Cracked/releases/download/v$version/xray_windows_amd64.exe#/xray.exe"
     }
 }
