@@ -9,7 +9,7 @@
             ]
         },
     "url": "https://github.com/axcheron/pyvmx-cracker/archive/refs/heads/master.zip",
-    "hash":"",
+    "hash":"1cf3f49a8801b74af4333e0f41858455ef5f39a53c1a7ce6264052a0b6e8a7c5",
     "pre_install": [
         "Set-Content \"$dir\\pyvmx-cracker.bat\" '@pushd %~dp0",
         "@python3 \"pyvmx-cracker.py\" %*",
