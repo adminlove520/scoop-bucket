@@ -1,5 +1,5 @@
 {
-    "version": "2024-10-04T08.46.26",
+    "version": "2024-10-07T15.09.46",
     "description": "跨版本 Python 字节码反编译器",
     "homepage": "https://github.com/rocky/python-uncompyle6",
     "license": "unknown",
@@ -7,7 +7,7 @@
         "python": "python3"
     },
     "url": "https://github.com/rocky/python-uncompyle6/archive/refs/heads/master.zip",
-    "hash": "3f201f2424f19218cfca8adb36747db1eab6d7a07a123c287811f1be06bcd332",
+    "hash": "4b8505b16020b9280fb567ddb30a2f65c0376f302d5e2cfc0b8223320b9d7a3b",
     "pre_install": [
         "Set-Content \"$dir\\uncompyle.bat\" '@pushd %~dp0",
         "@cmd /c uncompyle6 %*",
