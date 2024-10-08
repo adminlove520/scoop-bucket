@@ -1,0 +1,13 @@
+{
+    "version": "0.3.12",
+    "description": "启动并运行 Llama 3.2、Mistral、Gemma 2 和其他大型语言模型。",
+    "homepage": "https://github.com/ollama/ollama",
+    "license": "unknown",
+    "url": "https://github.com/ollama/ollama/releases/download/v0.3.12/ollama-windows-amd64.zip",
+    "hash": "",
+    "bin": "ollama.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ollama/ollama/releases/download/v$version/ollama-windows-amd64.zip"
+    }
+}
