@@ -2,9 +2,9 @@
     "description": "The leading toolkit for web security testing.",
     "homepage": "https://portswigger.net/",
     "license": "Proprietary",
-    "version": "2024.8.4",
-    "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.8.4&type=Jar",
-    "hash": "2561b488d9d026032a36c312648cc50a6b2ce8986f67dafb9451ee5f8ebedcc8",
+    "version": "2024.8.5",
+    "url": "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2024.8.5&type=Jar",
+    "hash": "6c6d7e535eaa44d9c71e18e5a1420cc411fbff3291a346f7b445f579bb0294be",
     "post_install": "Invoke-WebRequest -URI \"https://github.com/20142995/file/releases/download/burpsuitloader.jar/burpsuitloader.jar\" -OutFile \"$dir\\burpsuitloader.jar\"",
     "pre_install": [
         "Rename-Item \"$dir\\download\" 'burpsuite_pro.jar'",
