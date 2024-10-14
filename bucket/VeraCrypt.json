@@ -4,6 +4,6 @@
     "homepage": "https://github.com/veracrypt/VeraCrypt",
     "license": "unknown",
     "url": "https://github.com/20142995/file/releases/download/VeraCrypt/VeraCrypt.1.26.15.zip",
-    "hash": "08df2678526ea5b0a171a99e2247639d6f9c8fa795d4b9f6c9b38d6a6b55d642",
+    "hash": "b38a8a1237f2498617204a7b0050bfd5909ea2ddae00838abdaf3de2c57d70ee",
     "bin": "VeraCrypt.exe"
 }
