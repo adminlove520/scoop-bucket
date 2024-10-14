@@ -3,9 +3,8 @@
     "description": "基于 TrueCrypt 的具有强大安全性的磁盘加密",
     "homepage": "https://github.com/veracrypt/VeraCrypt",
     "license": "unknown",
-    "url": "https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_1.26.15/VeraCrypt.Setup.1.26.15.exe",
-    "hash": "bc569a7876587ee139254ccd058493bed1d8a5efe3cd6b4578a2a4125950ae86",
-    "innosetup": true,
+    "url": "https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_1.26.15/VeraCrypt_Setup_x64_1.26.15.msi",
+    "hash": "b04253864adad522669ad69e94e55945a0736a8c4aeb6742357228120d342cf7",
     "bin": "VeraCrypt.exe",
     "checkver": {
         "url": "https://api.github.com/repos/veracrypt/VeraCrypt/releases/latest",
@@ -13,6 +12,6 @@
         "regex": "VeraCrypt_([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_$version/VeraCrypt.Setup.$version.exe"
+        "url": "https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_$version/VeraCrypt_Setup_x64_$version.msi"
     }
 }
