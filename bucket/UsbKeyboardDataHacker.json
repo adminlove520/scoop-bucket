@@ -14,8 +14,8 @@
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\UsbKeyboardDataHacker-master\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\UsbKeyboardDataHacker-master\" -Force -Recurse"
+        "Move-Item -Path \"$dir\\UsbKeyboardDataHacker-main\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\UsbKeyboardDataHacker-main\" -Force -Recurse"
     ],
     "bin": "UsbKeyboardDataHacker.bat",
     "checkver": {
