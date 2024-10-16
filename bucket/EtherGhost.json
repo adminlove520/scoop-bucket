@@ -6,8 +6,8 @@
     "url": "https://github.com/Marven11/EtherGhost/archive/refs/heads/master.zip",
     "hash":"d35ee53339c35ad2c6d3678d7f6c2607335cb376fe6a2ddb5e51832f8bbd03ec",
     "extract_dir":"EtherGhost-main\\assets",
-    "pre_install": "Rename-Item \"$dir\\ether_ghost*.exe\" 'ether_ghost.exe'",
-    "bin": "ether_ghost_v0.1.2.exe",
+    "pre_install": "Get-ChildItem \"$dir\" 'ether_ghost_v*.exe' | Select-Object -First 1 | Rename-Item -NewName 'ether_ghost.exe'",
+    "bin": "ether_ghost.exe",
     "checkver": {
         "url": "https://api.github.com/repos/Marven11/EtherGhost/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
