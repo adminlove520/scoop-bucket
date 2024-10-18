@@ -1,0 +1,24 @@
+{
+    "version": "0.2",
+    "description": "DockerApiRCE",
+    "homepage": "https://github.com/0xchang/DockerApiRCE",
+    "license": "UNKNOWN",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "url": "https://github.com/0xchang/DockerApiRCE/releases/download/v0.2/DockerApiRCE.jar",
+    "hash": "cce0bfef672b1f7ecfe4cef015ce35598227f8e070e4a29b75430c3142d3397a",
+    "pre_install": [
+        "Set-Content \"$dir\\DockerApiRCE.bat\" '@pushd %~dp0",
+        "@start javaw.exe -jar \"DockerApiRCE.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "bin": "DockerApiRCE.bat",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/0xchang/DockerApiRCE/releases/download/v$version/DockerApiRCE.jar"
+    }
+}
