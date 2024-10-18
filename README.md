@@ -22,6 +22,9 @@ Scoop**是一款适用于Windows平台的命令行软件（包）管理工具**�
 
    ```
    irm get.scoop.sh -outfile 'install.ps1'
+   # 国内
+   iwr -useb https://gitee.com/glsnames/scoop-installer/raw/master/bin/install.ps1  -outfile 'install.ps1'
+
    ```
 
 4. 管理员执行安装脚本
