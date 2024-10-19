@@ -10,7 +10,7 @@
         ]
     },
     "url": "https://github.com/20142995/file/releases/download/F5-steganography/F5-steganography.jar",
-    "hash": "",
+    "hash": "cc750f03723e1540e890356bd84851bb91839e0e72408474c821a5e1488157e9",
     "pre_install": [
         "Set-Content \"$dir\\F5-steganography.bat\" '@pushd %~dp0",
         "@cmd /c java.exe -jar \"F5-steganography.jar\" %*",
