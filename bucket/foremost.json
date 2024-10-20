@@ -1,0 +1,18 @@
+{
+    "version": "2016-02-05T03.13.42",
+    "description": "Foremost 是一个控制台程序，用于根据文件的页眉、页脚和内部数据结构恢复文件。此过程通常称为数据雕刻。Foremost 可以处理图像文件，例如由 dd、Safeback、Encase 等生成的文件，也可以直接在驱动器上工作。",
+    "homepage": "https://github.com/jin-stuff/foremost",
+    "license": "unknown",
+    "url": "https://github.com/jin-stuff/foremost/archive/refs/heads/master.zip",
+    "hash":"d8676a38472325ef65abd4cb69117833ecfe84036710c1907a730f0f670ca0ac",
+    "extract_dir":"foremost-master",
+    "bin": "binary\\foremost.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/jin-stuff/foremost/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jin-stuff/foremost/archive/refs/heads/master.zip"
+    }
+}
