@@ -1,0 +1,13 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Oct 20 10:33:04 2024
+Invocation: D:\Tools\apps\foremost\current\foremost.exe 
+Output directory: D:\OneDrive\code\github\scoop-bucket\output
+Configuration file: D:\Program Files\foremost\foremost.conf
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sun Oct 20 10:33:04 2024
