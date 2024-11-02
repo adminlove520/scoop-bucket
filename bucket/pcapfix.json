@@ -4,7 +4,7 @@
     "homepage": "https://github.com/Rup0rt/pcapfix",
     "license": "unknown",
     "url": "https://github.com/Rup0rt/pcapfix/releases/download/v1.1.7/pcapfix-1.1.7-win32.zip",
-    "hash": "",
+    "hash": "bdb800d42209a0612675e91d6f95112cc374d8e19c48d99b3b3e63c0ef857749",
     "extract_dir":"pcapfix-1.1.7",
     "bin":"pcapfix.exe",
     "checkver": "github",
