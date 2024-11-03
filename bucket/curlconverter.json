@@ -9,7 +9,7 @@
             ]
         },
     "url": "https://github.com/curlconverter/curlconverter.github.io/archive/refs/heads/gh-pages.zip",
-    "hash":"",
+    "hash":"0e0b5c42bceeaf4a92f5cdbdfb959b5ac15bfa5c720620390a29d4b5bdef15c7",
     "extract_dir":"curlconverter.github.io-gh-pages",
     "pre_install": [
         "Set-Content \"$dir\\curlconverter.bat\" '@pushd %~dp0",
