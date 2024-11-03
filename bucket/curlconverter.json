@@ -13,7 +13,7 @@
     "extract_dir":"curlconverter.github.io-gh-pages",
     "pre_install": [
         "Set-Content \"$dir\\curlconverter.bat\" '@pushd %~dp0",
-        "@start python -m http.server --bind 127.0.0.1 8010",
+        "@start python3 -m http.server --bind 127.0.0.1 8010",
         "@popd' -Encoding Ascii"
     ],
     "bin": "curlconverter.bat",
