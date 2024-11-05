@@ -1,15 +1,13 @@
 {
-    "version": "2024-07-21T09.44.42",
+    "version": "2024-08-25T09.20.34",
     "description": "PyInstaller Extractor 是一个 Python 脚本，用于提取 PyInstaller 生成的可执行文件的内容",
     "homepage": "https://github.com/pyinstxtractor/pyinstxtractor-ng",
     "license": "unknown",
-    "suggest":  {
-        "python":[
-            "python3"
-            ]
-        },
+    "suggest": {
+        "python": "python3"
+    },
     "url": "https://github.com/pyinstxtractor/pyinstxtractor-ng/archive/refs/heads/master.zip",
-    "hash":"",
+    "hash": "",
     "pre_install": [
         "Set-Content \"$dir\\pyinstxtractor-ng.bat\" '@pushd %~dp0",
         "@python3 \"pyinstxtractor-ng.py\" %*",
