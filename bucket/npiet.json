@@ -4,7 +4,7 @@
     "homepage": "https://www.bertnase.de/npiet",
     "license": "unknown",
     "url": "https://www.bertnase.de/npiet/npiet-1.3a-win32.zip",
-    "hash": "",
+    "hash": "0d2543f1fbff11ad42939fee714d40215c206668a6385ce15e9c32ab1028ad85",
     "bin": [
         "npiet.exe",
         "npiet-foogol.exe"
