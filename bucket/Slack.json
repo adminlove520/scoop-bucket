@@ -1,10 +1,10 @@
 {
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "安服集成化工具平台，帮助测试人员减少测试脚本多，使用繁琐问题",
     "homepage": "https://github.com/qiwentaidi/Slack",
     "license": "unknow",
-    "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack1.7.0/Slack-windows-amd64.exe#/Slack.exe",
-    "hash": "498c5198327f5469151923d137d465255dbcea56957b2fc9519ef19473429100",
+    "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack1.7.1/Slack-windows-amd64.exe#/Slack.exe",
+    "hash": "800cc95590e6e8d79ac20612a6dc840021a7afbf53c1be880bf90f6c3aedeab7",
     "bin": "Slack.exe",
     "checkver": {
         "url": "https://api.github.com/repos/qiwentaidi/Slack/releases/latest",
