@@ -4,7 +4,7 @@
     "homepage": "https://github.com/skylot/jadx",
     "license": "Apache-2.0",
     "url": "https://github.com/skylot/jadx/releases/download/v1.5.1/jadx-gui-1.5.1-with-jre-win.zip",
-    "hash": "8fa5794369df89e79e45a673cbe6dfec6c0933c8788fa75dfd31cc41af2a1632",
+    "hash": "d518347334004ec83f21cc42498c9597c3177dd50769acbe42d8b1dfb32b3d28",
     "pre_install": "Get-ChildItem \"$dir\" 'jadx-gui-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'jadx-gui.exe'",
     "bin": "jadx-gui.exe",
     "checkver": "github",
