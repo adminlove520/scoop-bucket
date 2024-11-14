@@ -4,7 +4,7 @@
     "homepage": "https://github.com/GTFOBins/GTFOBins.github.io",
     "license": "unknown",
     "url": "https://github.com/GTFOBins/GTFOBins.github.io/archive/refs/heads/master.zip",
-    "hash":"",
+    "hash":"8ad1c5468b34b43a5d28b0e92053d3825cc0ce3a8b9a7e866dc9d2d57158a4b5",
     "extract_dir":"GTFOBins.github.io-master",
     "checkver": {
         "url": "https://api.github.com/repos/GTFOBins/GTFOBins.github.io/commits",
