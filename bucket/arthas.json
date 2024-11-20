@@ -1,5 +1,5 @@
 {
-    "version": "4.0.3",
+    "version": "4.0.4",
     "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
     "homepage": "https://github.com/alibaba/arthas",
     "license": "unknown",
@@ -9,8 +9,8 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/alibaba/arthas/releases/download/arthas-all-4.0.3/arthas-bin.zip",
-    "hash": "589635bd06c829f6cd9e8a4497e65465eff652e4d06fe056ea13c2eba8dfa5f1",
+    "url": "https://github.com/alibaba/arthas/releases/download/arthas-all-4.0.4/arthas-bin.zip",
+    "hash": "923a33f58b885d7698de3c3d3ba137c4dc173b51139ccc4fde5b3d6aa215f406",
     "pre_install": [
         "Set-Content \"$dir\\arthas-boot.bat\" '@pushd %~dp0",
         "@cmd /c java.exe -jar \"arthas-boot.jar\" %*",
