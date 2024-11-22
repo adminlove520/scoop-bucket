@@ -3,7 +3,10 @@
     "description": "One Remote Access Manager to Rule Them All",
     "homepage": "https://github.com/1Remote/1Remote",
     "license": "GPL-3.0-or-later",
-    "notes": "config location: C:\\Users\\<your username>\\AppData\\Local\\PRemoteM\nconfig location: C:\\Users\\<your username>\\\\AppData\\\\Roaming\\PRemoteM",
+    "notes": [
+        "config location: C:\\Users\\<your username>\\AppData\\Local\\PRemoteM\nconfig location: C:\\Users\\<your username>\\\\AppData\\\\Roaming\\PRemoteM",
+        "远程连接工具,RDP,RemoteApp,SSH,VNC,Telnet,FTP,Serial,SFTP,APP ?"
+    ],
     "url": "https://github.com/1Remote/1Remote/releases/download/1.0.0/1Remote-1.0.0-net6-x64.zip",
     "hash": "09f62793d8b59eaaa4ae781dc04a2882c46eb50a36a7f567a38f99497fd5eef5",
     "bin": [
