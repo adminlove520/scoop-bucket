@@ -1,0 +1,13 @@
+{
+    "version": "1.2",
+    "description": [
+        "数字盲水印&隐形水印制作工具",
+        ""
+    ],
+
+    "homepage": "https://www.52pojie.cn/thread-709668-1-1.html",
+    "license": "unknown",
+    "url": "https://github.com/20142995/file/releases/download/WaterMarkH/WaterMarkH.exe",
+    "hash": "",
+    "bin": "WaterMarkH.exe"
+}
