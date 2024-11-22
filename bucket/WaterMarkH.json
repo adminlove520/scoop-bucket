@@ -1,10 +1,12 @@
 {
     "version": "1.2",
-    "description": [
-        "数字盲水印&隐形水印制作工具",
-        ""
+    "description": "数字盲水印&隐形水印制作工具",
+    "notes": [
+        "隐写工具",
+        "隐写:输入图像文件(*.BMP,*JPG,*.GIF.*.PNG),输出(*JPG)",
+        "提取: 图像文件(*JPG)",
+        "单图盲水印(频域隐写)工具"
     ],
-
     "homepage": "https://www.52pojie.cn/thread-709668-1-1.html",
     "license": "unknown",
     "url": "https://github.com/20142995/file/releases/download/WaterMarkH/WaterMarkH.exe",
