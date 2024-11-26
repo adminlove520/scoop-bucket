@@ -1,6 +1,9 @@
 {
     "version": "2.1.0",
     "description": "API接口管理工具(目前内置微信公众号、微信小程序、企业微信、飞书、钉钉等)",
+    "notes": [
+        "API管理,漏洞检测利用,信息泄露,微信公众号、微信小程序、企业微信、飞书、钉钉"
+    ],
     "homepage": "https://github.com/mrknow001/API-Explorer",
     "license": "Freeware",
     "url": "https://github.com/mrknow001/API-Explorer/releases/download/v2.1.0/API-Explorer_v2.1.0.zip",

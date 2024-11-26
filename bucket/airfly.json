@@ -1,6 +1,10 @@
 {
     "version": "0.2",
     "description": "机场订阅一键生成ip代理池，让机场起飞！",
+    "notes": [
+        "代理工具",
+        ""
+    ],
     "homepage": "https://github.com/zgao264/AirFly",
     "license": "Freeware",
     "url": "https://github.com/zgao264/AirFly/releases/download/0.2/airfly-window-amd64.zip",
