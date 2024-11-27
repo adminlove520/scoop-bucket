@@ -11,6 +11,11 @@
     },
     "url": "https://github.com/vsdwef/James_synthesis_tooL/releases/download/V2.0/James_synthesis_tool.zip",
     "hash": "",
+    "post_install": [
+        "Invoke-WebRequest -URI \"https://github.com/vsdwef/James_synthesis_tooL/releases/download/V2.0/lib.zip\" -OutFile \"$dir\\lib.zip\"",
+        "7z x \"$dir\\lib.zip\" -o\"$dir\\lib\"",
+        "Remove-Item \"$dir\\lib.zip\" -Force -Recurse"
+    ],
     "pre_install": [
         "Set-Content \"$dir\\James_synthesis_tool.bat\" '@pushd %~dp0",
         "@start javaw.exe -jar \"James_synthesis_tool.jar\" %*",
