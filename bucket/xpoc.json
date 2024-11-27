@@ -1,6 +1,10 @@
 {
     "version": "0.1.0",
     "description": "xpoc 为供应链漏洞扫描设计的快速应急响应工具",
+    "notes": [
+        "漏洞扫描",
+        "POC扫描"
+    ],
     "homepage": "https://github.com/chaitin/xpoc",
     "license": {
         "identifier": "Freeware",

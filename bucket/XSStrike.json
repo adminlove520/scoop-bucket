@@ -1,6 +1,10 @@
 {
     "version": "3.1.5",
     "description": "Most advanced XSS scanner.",
+    "notes": [
+        "漏洞检测利用,漏洞扫描",
+        "XSS"
+    ],
     "homepage": "https://github.com/s0md3v/XSStrike",
     "license": "GPL-3.0",
     "suggest": {

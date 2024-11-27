@@ -1,6 +1,10 @@
 {
     "version": "kali-master",
     "description": "wordlists packaging for Kali Linux.",
+    "notes": [
+        "字典",
+        "密码,rockyou"
+    ],
     "homepage": "https://gitlab.com/kalilinux/packages/wordlists",
     "license": "Freeware",
     "url": "https://gitlab.com/kalilinux/packages/wordlists/-/raw/kali/master/rockyou.txt.gz?ref_type=heads&inline=false",

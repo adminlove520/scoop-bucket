@@ -1,6 +1,10 @@
 {
     "version": "master",
     "description": "XSS'OR - Hack with JavaScript.",
+    "notes": [
+        "漏洞检测利用,漏洞扫描",
+        "XSS"
+    ],
     "homepage": "https://github.com/evilcos/xssor2",
     "license": "BSD-2-Clause",
     "suggest": {
