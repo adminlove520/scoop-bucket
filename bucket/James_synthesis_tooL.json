@@ -18,7 +18,7 @@
     ],
     "pre_install": [
         "Set-Content \"$dir\\James_synthesis_tool.bat\" '@pushd %~dp0",
-        "@start javaw.exe -jar \"James_synthesis_tool.jar\" %*",
+        "@start javaw.exe -javaagent:James_synthesis_tool.jar --module-path ./lib --add-modules javafx.controls,javafx.fxml -jar -Dfile.encoding=utf-8 -jar James_synthesis_tool.jar",
         "@popd' -Encoding Ascii"
     ],
     "bin": "James_synthesis_tool.bat",
