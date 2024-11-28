@@ -1,6 +1,9 @@
 {
     "version": "2.2",
     "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters.",
+    "notes": [
+        "代理转发"
+    ],
     "homepage": "https://github.com/ph4ntonn/Stowaway",
     "license": "MIT",
     "url": [
