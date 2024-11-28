@@ -1,6 +1,9 @@
 {
     "version": "2.6.1",
     "description": "An advanced memory forensics framework(高级内存取证框架)",
+    "notes": [
+        "内存取证分析"
+    ],
     "homepage": "https://github.com/volatilityfoundation/volatility",
     "license": "GPL-2.0-only",
     "suggest": {

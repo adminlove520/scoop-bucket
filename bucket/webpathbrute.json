@@ -1,6 +1,9 @@
 {
     "version": "1.6.2",
     "description": "7kbscan-WebPathBrute Web路径暴力探测工具",
+    "notes": [
+        "web目录扫描"
+    ],
     "homepage": "https://github.com/7kbstorm/7kbscan-WebPathBrute",
     "license": "MIT",
     "architecture": {

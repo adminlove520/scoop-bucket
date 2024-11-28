@@ -1,6 +1,10 @@
 {
     "version": "1.0.1",
     "description": "Tomcat漏洞利用工具",
+    "notes": [
+        "漏洞检测利用",
+        "Tomcat,Tomcat 任意写入文件漏洞 (CVE-2017-12615),Put文件上传漏洞、弱口令漏洞、AJP协议漏洞"
+    ],
     "homepage": "https://github.com/errors11/TomcatVuln",
     "license": "Freeware",
     "suggest": {

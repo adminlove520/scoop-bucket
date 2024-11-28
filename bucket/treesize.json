@@ -1,6 +1,9 @@
 {
     "version": "8.0.3",
     "description": "TreeSize纯净版是一款功能强大的磁盘空间管理软件，为用户提供了功能强大的磁盘空间管理功能，帮助更好的管理内存空间，为文件管理提供了帮助。软件已经进行了整体优化，去除了各种无用的功能和界面，满足用户的各种软件纯净版使用需求 ",
+    "notes": [
+        "磁盘管理"
+    ],
     "homepage": "https://www.jam-software.com/treesize",
     "license": "Freeware",
     "url": "http://xz.w10a.com/small/TreesizePro.rar",

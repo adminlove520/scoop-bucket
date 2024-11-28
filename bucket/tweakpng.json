@@ -1,6 +1,10 @@
 {
     "version": "1.4.6",
     "description": "TweakPNG is a low-level utility for examining and modifying PNG image files. ",
+    "notes": [
+        "图片分析",
+        "PNG检查和修改"
+    ],
     "homepage": "https://entropymine.com/jason/tweakpng/",
     "license": "GPL-3.0-or-later",
 

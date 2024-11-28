@@ -1,6 +1,9 @@
 {
     "version": "4.0.1",
     "description": "Weaponized web shell.",
+    "notes": [
+        "Webshell管理"
+    ],
     "homepage": "https://github.com/epinna/weevely3",
     "license": "GPL-3.0",
     "suggest": {

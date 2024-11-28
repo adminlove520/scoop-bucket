@@ -1,9 +1,13 @@
 {
     "version": "1.2.4",
     "description": "用于生成各类免杀webshell",
+    "notes": [
+        "webshell生成",
+        "cmd、蚁剑、冰蝎、哥斯拉",
+        "jsp、jspx、php、asp、aspx、ashs、asmx"
+    ],
     "homepage": "https://github.com/cseroad/Webshell_Generate",
     "license": "Freeware",
-    "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/webshell_generate.json",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
