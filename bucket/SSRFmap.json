@@ -1,6 +1,10 @@
 {
     "version": "2024-06-10T12.57.57",
     "description": "自动 SSRF 模糊测试和利用工具",
+    "notes": [
+        "漏洞检测利用",
+        "SSRF"
+    ],
     "homepage": "https://github.com/swisskyrepo/SSRFmap",
     "license": "MIT",
     "suggest":  {
