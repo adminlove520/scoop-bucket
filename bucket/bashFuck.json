@@ -1,6 +1,10 @@
 {
     "version": "2024-08-14T21.51.35",
     "description": "针对Linux终端 bashshell 的无字母命令执行的骚操作",
+    "notes": [
+        "漏洞检测利用",
+        "命令注入"
+    ],
     "homepage": "https://github.com/ProbiusOfficial/bashFuck",
     "license": "GPL-3.0",
     "suggest":  {
