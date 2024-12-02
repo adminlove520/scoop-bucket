@@ -29,7 +29,8 @@
     "persist": [
         "data",
         "config",
-        "extensions"
+        "extensions",
+        "golib\\exploits\\user"
     ],
     "autoupdate": {
         "architecture": {
