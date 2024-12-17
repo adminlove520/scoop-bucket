@@ -5,7 +5,6 @@
     "license": "unknown",
     "url": "https://github.com/lv183037/MaLoader/releases/download/V1.0/MaLoader.zip",
     "hash": "",
-    "bin": "MaLoader.exe",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/lv183037/MaLoader/releases/download/V$version/MaLoader.zip"
