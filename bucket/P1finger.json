@@ -1,6 +1,6 @@
 {
     "version": "0.0.3",
-    "description": "P1finger - 红队行动下的重点资产指纹识别工具",
+    "description": "(Scoop bucket by arch3rpro) P1finger - 红队行动下的重点资产指纹识别工具",
     "homepage": "https://github.com/P001water/P1finger",
     "license": "MIT",
     "url": "https://github.com/P001water/P1finger/releases/download/P1finger_0.0.3/P1finger64.exe#/P1finger.exe",

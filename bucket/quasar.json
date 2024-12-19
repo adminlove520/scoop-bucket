@@ -1,6 +1,6 @@
 {
     "version": "1.4.1",
-    "description": "Remote Administration Tool for Windows",
+    "description": "Remote Administration Tool for Windows.(Scoop bucket by arch3rpro)",
     "homepage": "https://github.com/quasar/Quasar",
     "license": "MIT",
     "notes": "https://github.com/ViCrack/scoop-bucket/blob/master/bucket/quasar.json",
@@ -13,7 +13,10 @@
             "Quasar"
         ]
     ],
-    "pre_install": ["if (!(Test-Path \"$persist_dir\\quasar.p12\")) { New-Item \"$dir\\quasar.p12\" -Value '' | Out-Null }","if (!(Test-Path \"$persist_dir\\settings.xml\")) { New-Item \"$dir\\settings.xml\" -Value '' | Out-Null }"],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\quasar.p12\")) { New-Item \"$dir\\quasar.p12\" -Value '' | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\settings.xml\")) { New-Item \"$dir\\settings.xml\" -Value '' | Out-Null }"
+    ],
     "persist": [
         "quasar.p12",
         "settings.xml"

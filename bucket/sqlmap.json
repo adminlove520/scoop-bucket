@@ -1,6 +1,6 @@
 {
     "version": "1.8",
-    "description": "sqlmap是一个自动化的SQL注入工具，其主要功能是扫描，发现并利用给定的URL进行SQL注入",
+    "description": "sqlmap是一个自动化的SQL注入工具，其主要功能是扫描，发现并利用给定的URL进行SQL注入(Scoop bucket by arch3rpro)",
     "notes": [
         "漏洞检测利用",
         "SQL注入"
@@ -8,7 +8,7 @@
     "homepage": "https://sqlmap.org/",
     "license": "GNU",
     "suggest": {
-        "python":[
+        "python": [
             "python3"
         ]
     },

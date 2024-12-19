@@ -1,6 +1,6 @@
 {
     "version": "2.1",
-    "description": "Spring漏洞综合利用工具",
+    "description": "(Scoop bucket by arch3rpro) Spring_All_Reachable - Spring漏洞综合利用工具",
     "homepage": "https://github.com/savior-only/Spring_All_Reachable",
     "license": "Freeware",
     "suggest": {

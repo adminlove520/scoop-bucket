@@ -1,6 +1,6 @@
 {
     "version": "0.0.9",
-    "description": "Redis 漏洞利用工具",
+    "description": "(Scoop bucket by arch3rpro) Redis 漏洞利用工具。",
     "homepage": "https://github.com/yuyan-sec/RedisEXP",
     "license": "unknown",
     "url": "https://github.com/yuyan-sec/RedisEXP/releases/download/0.0.9/RedisEXP.exe",

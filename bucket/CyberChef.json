@@ -7,9 +7,7 @@
     "hash": "3788b29ffb54f5784968fcf998286f0f75670be8a92e40eb683743ebaab97510",
     "pre_install": [
         "Get-ChildItem \"$dir\" 'CyberChef_v*.html' | Select-Object -First 1 | Rename-Item -NewName 'CyberChef.html'",
-        "Set-Content \"$dir\\CyberChef.bat\" '@pushd %~dp0
-start CyberChef.html
-@popd' -Encoding Ascii"
+        "Set-Content \"$dir\\CyberChef.bat\" '@pushd %~dp0\nstart CyberChef.html\n@popd' -Encoding Ascii"
     ],
     "bin": "CyberChef.bat",
     "checkver": "github",

@@ -1,10 +1,10 @@
 {
     "version": "1.0",
-    "description": "File upload vulnerability scanner and exploitation tool..",
+    "description": "File upload vulnerability scanner and exploitation tool..(Scoop bucket by arch3rpro)",
     "homepage": "https://github.com/almandin/fuxploider",
     "license": "GPL-3.0",
     "suggest": {
-        "python":[
+        "python": [
             "python3"
         ]
     },
