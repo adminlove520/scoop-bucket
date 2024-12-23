@@ -4,7 +4,7 @@
     "homepage": "https://github.com/qiwentaidi/Slack",
     "license": "unknow",
     "url": "https://github.com/qiwentaidi/Slack/releases/download/Slack1.7.5/Slack-windows-amd64.exe#/Slack.exe",
-    "hash": "",
+    "hash": "c86dc4b8ff54ca3cae0d8d3958b80dbc7a40579d1b026500bba5c5e262a4324e",
     "bin": "Slack.exe",
     "checkver": {
         "url": "https://api.github.com/repos/qiwentaidi/Slack/releases/latest",
