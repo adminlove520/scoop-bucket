@@ -1,5 +1,5 @@
 {
-    "version": "0.0.9",
+    "version": "0.1.1",
     "description": "(Scoop bucket by arch3rpro) Redis 漏洞利用工具。",
     "notes": [
         "漏洞检测利用",
@@ -7,8 +7,8 @@
     ],
     "homepage": "https://github.com/yuyan-sec/RedisEXP",
     "license": "unknown",
-    "url": "https://github.com/yuyan-sec/RedisEXP/releases/download/0.0.9/RedisEXP_windows_amd64.exe#/RedisEXP.exe",
-    "hash": "cec4b5bfac9357900fbdc7b5d4c4bf60d9620b0d911fa9a2abd9598cc952f08a",
+    "url": "https://github.com/yuyan-sec/RedisEXP/releases/download/0.1.1/RedisEXP_windows_amd64.exe#/RedisEXP.exe",
+    "hash": "bcb6ac6eff2087923bc490f493aa83ec30c00a0439f32cec2c9c60e713dc9bb0",
     "bin": "RedisEXP.exe",
     "checkver": "github",
     "autoupdate": {
