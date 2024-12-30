@@ -8,7 +8,7 @@
     ],
     "license": "unknown",
     "url": "https://github.com/Conan924/Bypass-Suite/releases/download/V1.0/BypassSuite-all.jar",
-    "hash": "",
+    "hash": "3959146a2259ceec5016c6f53294c7058688fab7aede76b26a2bf25fea7ba692",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Conan924/Bypass-Suite/releases/download/V$version/BypassSuite-all.jar"
