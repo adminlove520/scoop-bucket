@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "description": "Webshell本地扫描器",
+    "notes": [
+        "webshell查杀"
+    ],
+    "homepage": "https://github.com/20142995/file",
+    "license": "MIT",
+    "url": "https://github.com/20142995/file/releases/download/wscan/wscan.zip",
+    "hash":"",
+    "bin": "wscan.exe"
+}
