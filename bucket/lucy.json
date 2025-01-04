@@ -6,5 +6,8 @@
     "url": "https://github.com/20142995/file/releases/download/Lucy/Lucy.zip",
     "hash": "3195a0d34f0c61bcdd72f51067be652ae6bde83a1aadd20932e963e690dd83df",
     "bin":"Lucy_x64.exe",
-    "persist": "db"
+    "persist": [
+        "db",
+        "icons"
+    ]
 }
