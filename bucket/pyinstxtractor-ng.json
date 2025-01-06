@@ -1,5 +1,5 @@
 {
-    "version": "2024-08-25T09.20.34",
+    "version": "2025-01-05T22.20.11",
     "description": "PyInstaller Extractor 是一个 Python 脚本，用于提取 PyInstaller 生成的可执行文件的内容",
     "homepage": "https://github.com/pyinstxtractor/pyinstxtractor-ng",
     "license": "unknown",
