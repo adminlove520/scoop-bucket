@@ -7,7 +7,7 @@
         "python": "python3"
     },
     "url": "https://github.com/pyinstxtractor/pyinstxtractor-ng/archive/refs/heads/master.zip",
-    "hash": "",
+    "hash": "820c10529dcd624c3639d1d818de16c8ea9193a4639721322bd0f552dd26cbdd",
     "pre_install": [
         "Set-Content \"$dir\\pyinstxtractor-ng.bat\" '@pushd %~dp0",
         "@python3 \"pyinstxtractor-ng.py\" %*",
