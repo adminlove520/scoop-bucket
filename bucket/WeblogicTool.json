@@ -15,7 +15,12 @@
     },
     "url": "https://github.com/KimJun1010/WeblogicTool/releases/download/v1.3/WeblogicTool_1.3.jar#/WeblogicTool.jar",
     "hash": "878aff11ee2d4ae24cbddac552b8475bb210e114ebfd7e49a24315ee16c8e011",
-    "pre_install": "Set-Content \"$dir\\WeblogicTool.bat\" '@pushd %~dp0\n@start javaw.exe -jar \"WeblogicTool.jar\" %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Set-Content \"$dir\\WeblogicTool.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
+        "@start javaw.exe -jar \"WeblogicTool.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "bin": "WeblogicTool.bat",
     "checkver": "github",
     "autoupdate": {

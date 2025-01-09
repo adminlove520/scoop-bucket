@@ -13,6 +13,7 @@
     "hash": "923a33f58b885d7698de3c3d3ba137c4dc173b51139ccc4fde5b3d6aa215f406",
     "pre_install": [
         "Set-Content \"$dir\\arthas-boot.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
         "@cmd /c java.exe -jar \"arthas-boot.jar\" %*",
         "@popd' -Encoding Ascii"
     ],

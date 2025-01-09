@@ -14,6 +14,7 @@
     "pre_install": [
         "Get-ChildItem \"$dir\" 'CTFCrackTools-*.jar' | Select-Object -First 1 | Rename-Item -NewName 'CTFCrackTools.jar'",
         "Set-Content \"$dir\\CTFCrackTools.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
         "@start javaw.exe -jar \"CTFCrackTools.jar\" %*",
         "@popd' -Encoding Ascii"
     ],

@@ -11,7 +11,13 @@
     },
     "url": "https://github.com/jdr2021/OSSFileBrowse/releases/download/v1.1/OSSFileBrowse-1.1.zip",
     "hash":"f8bccc9947449f650cb8a93780fa94ccd659f0fcfc4113ca07132bcf46dbdf45",
-    "pre_install": "Set-Content \"$dir\\OSSFileBrowse.bat\" '@pushd %~dp0\n@start javaw.exe -jar \"OSSFileBrowse-1.1-SNAPSHOT.jar\" %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Get-ChildItem \"$dir\" 'OSSFileBrowse*.jar' | Select-Object -First 1 | Rename-Item -NewName 'OSSFileBrowse.jar'",
+        "Set-Content \"$dir\\OSSFileBrowse.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
+        "@start javaw.exe -jar \"OSSFileBrowse.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "bin": "OSSFileBrowse.bat",
     "checkver": "github",
     "autoupdate": {

@@ -13,6 +13,7 @@
     "hash": "8f58917dbeb13284614e2b4238fab7b5bfb11f406f060115da77a71cb0842027",
     "pre_install": [
         "Set-Content \"$dir\\attackRmi.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
         "@start javaw.exe -jar \"attackRmi.jar\" %*",
         "@popd' -Encoding Ascii"
     ],

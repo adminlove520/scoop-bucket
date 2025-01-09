@@ -14,7 +14,7 @@
     "hash": "308e740b8597147382ac553b7bcf18117f200f4f4ba4c149e1b6cbcd9d01e755",
     "pre_install": [
         "Set-Content \"$dir\\XXEinjector.bat\" '@pushd %~dp0",
-        "ruby -W0 \"XXEinjector.rb\" %*",
+        "@ruby -W0 \"XXEinjector.rb\" %*",
         "@popd' -Encoding Ascii"
     ],
     "extract_dir": "XXEinjector-master",

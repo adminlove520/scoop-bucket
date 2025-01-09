@@ -13,6 +13,7 @@
     "hash": "ea82b3e7ea3149fbe467cbb9a5fd8d69f907ccbe32437fcba577149f9c858960",
     "pre_install": [
         "Set-Content \"$dir\\Bytecode-Viewer.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
         "@start javaw.exe -jar \"Bytecode-Viewer.jar\" %*",
         "@popd' -Encoding Ascii"
     ],

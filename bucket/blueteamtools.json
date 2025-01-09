@@ -17,6 +17,7 @@
     "hash": "5f8ba98c4d5de6e259529ab022d9d52a24898c14f822940996d541c3232b466d",
     "pre_install": [
         "Set-Content \"$dir\\blueteamtools.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
         "@start javaw.exe -jar \"BlueTeamTools.jar\" %*",
         "@popd' -Encoding Ascii"
     ],

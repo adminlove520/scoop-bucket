@@ -15,7 +15,7 @@
     "bin": "DirBuster.bat",
     "pre_install": [
         "$content = Get-Content -Path $(Join-Path $dir 'DirBuster-1.0-RC1.bat')",
-        "$content = 'cd /d %~dp0' + [Environment]::NewLine + $content",
+        "$content = 'cd /d %~dp0' + [Environment]::NewLine + 'call oraclejre8'+ [Environment]::NewLine +  $content",
         "Set-Content -Path $(Join-Path $dir 'DirBuster-1.0-RC1.bat') -Value $content",
         "$oldPath = Join-Path $dir 'DirBuster-1.0-RC1.bat'",
         "$newPath = Join-Path $dir 'DirBuster.bat'",

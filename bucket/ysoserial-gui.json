@@ -18,7 +18,8 @@
     "hash": "",
     "pre_install": [
         "Set-Content \"$dir\\ysoserial-gui.bat\" '@pushd %~dp0",
-        "@cmd /c java.exe -jar \"ysoserial-gui.jar\" %*",
+        "@call oraclejre8",
+        "@start javaw.exe -jar \"ysoserial-gui.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
     "bin": "ysoserial-gui.bat",

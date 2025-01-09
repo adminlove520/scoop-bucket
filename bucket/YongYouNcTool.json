@@ -17,6 +17,7 @@
     "hash": "c44a2b694f753be26d9a00379871df0330ef5e24a90c227cf4f1713c620f2f65",
     "pre_install": [
         "Set-Content \"$dir\\YongYouNcTool.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
         "@start javaw.exe -jar \"YongYouNcTool.jar\" %*",
         "@popd' -Encoding Ascii"
     ],

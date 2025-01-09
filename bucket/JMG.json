@@ -12,7 +12,12 @@
     },
     "url": "https://github.com/pen4uin/java-memshell-generator/releases/download/v1.0.7.beta3/jMG-gui-1.0.7.beta3.jar#/jMG-gui.jar",
     "hash": "1e1d3a03d294cfca1b7c5ae569b66b6b30e20c4bd000b0cc47fac4b998dfa3be",
-    "pre_install": "Set-Content \"$dir\\jMG-gui.bat\" '@pushd %~dp0\n@start javaw.exe -jar \"jMG-gui.jar\" %*\n@popd' -Encoding Ascii",
+    "pre_install": [
+        "Set-Content \"$dir\\jMG-gui.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
+        "@start javaw.exe -jar \"jMG-gui.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "bin": "jMG-gui.bat",
     "shortcuts": [
         [

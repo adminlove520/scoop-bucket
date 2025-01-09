@@ -40,6 +40,7 @@
     "hash": "5069d62dca7cf964a9b1b69615cc306c308c7da8721ea5abb4ee6fbee536baf1",
     "pre_install": [
         "Set-Content \"$dir\\Exp-Tools.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
         "@start javaw.exe -javaagent:Exp-Tools.jar -jar Exp-Tools.jar %*",
         "@popd' -Encoding Ascii"
     ],

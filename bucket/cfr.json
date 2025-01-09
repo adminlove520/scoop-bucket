@@ -15,8 +15,13 @@
             "java/openjdk"
         ]
     },
+    "pre_install": [
+        "Set-Content \"$dir\\cfr.bat\" '@pushd %~dp0",
+        "@call oraclejre8",
+        "@cmd /c java.exe -jar \"cfr.jar\" %*",
+        "@popd' -Encoding Ascii"
+    ],
     "bin": "cfr.bat",
-    "pre_install": "\"@java -jar \"\"$dir\\cfr.jar\"\" %*\" | out-file -en oem \"$dir\\cfr.bat\"",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/leibnitz27/cfr/releases/download/$version/cfr-$version.jar#/cfr.jar"
