@@ -8,9 +8,9 @@
     "bin": "MemProcFS.exe",
     "checkver": {
         "url": "https://api.github.com/repos/ufrisk/MemProcFS/releases/latest",
-        "regex": "download/v(?<tag>[\\d.]+)/MemProcFS_files_and_binaries_v([\\d.]+)-win_x64-(?<commit>\\d{8}).zip"
+        "regex": "download/(?<tag>v[\\d\\.]+)/MemProcFS_files_and_binaries_v([\\d.]+)-win_x64-(?<commit>\\d{8}).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/ufrisk/MemProcFS/releases/download/v$matchTag/MemProcFS_files_and_binaries_v$version-win_x64-$matchCommit.zip"
+        "url": "https://github.com/ufrisk/MemProcFS/releases/download/$matchTag/MemProcFS_files_and_binaries_v$version-win_x64-$matchCommit.zip"
     }
 }

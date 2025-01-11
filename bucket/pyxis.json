@@ -8,9 +8,9 @@
     "bin": "pyxis.exe",
     "checkver": {
         "url": "https://api.github.com/repos/zan8in/pyxis/releases/latest",
-        "regex": "download/v(?<tag>[\\d.]+)/pyxis_([\\d.]+)_windows_amd64.zip"
+        "regex": "download/(?<tag>v[\\d\\.]+)/pyxis_([\\d.]+)_windows_amd64.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/zan8in/pyxis/releases/download/v$matchTag/pyxis_$version_windows_amd64.zip"
+        "url": "https://github.com/zan8in/pyxis/releases/download/$matchTag/pyxis_$version_windows_amd64.zip"
     }
 }
