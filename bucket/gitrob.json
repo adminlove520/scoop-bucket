@@ -9,7 +9,7 @@
     "checkver": {
         "url": "https://api.github.com/repos/michenriksen/gitrob/releases/latest",
         "jsonpath": "$.tag_name",
-        "regex": "([\\w.]+)"
+        "regex": "v([\\w.]+)"
     },
     "autoupdate": {
         "architecture": {
