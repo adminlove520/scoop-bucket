@@ -4,7 +4,7 @@
     "homepage": "https://github.com/wgpsec/ENScan_GO",
     "license": "Apache-2.0",
     "url": "https://github.com/wgpsec/ENScan_GO/releases/download/v1.1.1/enscan-v1.1.1-windows-amd64.zip",
-    "hash": "",
+    "hash": "54924f70cac9e475391c9c99be626d03b352f90f34d9a4e624339a2568dbf4fe",
     "pre_install": [
         "Get-ChildItem \"$dir\" 'enscan-v*-windows-amd64.exe' | Select-Object -First 1 | Rename-Item -NewName 'enscan.exe'",
         "if (!(Test-Path \"$persist_dir\\config.yaml\")) { New-Item \"$dir\\config.yaml\" | Out-Null }"
