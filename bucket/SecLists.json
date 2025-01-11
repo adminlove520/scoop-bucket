@@ -13,6 +13,6 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/danielmiessler/SecLists/archive/refs/tags/v$version.zip",
-        "extract_dir": "SecLists-2023.2"
+        "extract_dir": "SecLists-$version"
     }
 }
