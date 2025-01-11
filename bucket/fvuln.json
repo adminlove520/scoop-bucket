@@ -4,7 +4,7 @@
     "homepage": "https://github.com/d3ckx1/Fvuln",
     "license": "Freeware",
     "url": "https://github.com/d3ckx1/Fvuln/releases/download/Fvuln-1.4.9/Fvuln.exe",
-    "hash": "",
+    "hash": "6cedd940f54f30af9364709b718c490378d5a63ccdfd60227d281c6af2a540a2",
     "bin": "Fvuln.exe",
     "checkver": {
         "url": "https://api.github.com/repos/d3ckx1/Fvuln/releases/latest",
