@@ -8,7 +8,7 @@
     "bin": "cloudTools.exe",
     "checkver": {
         "url": "https://api.github.com/repos/dark-kingA/cloudTools/releases/latest",
-        "regex": "download/v(?<tag>[\\w-]+)/cloud-([\\d.]+)-win-x64.exe"
+        "regex": "download/(?<tag>\\S+)/cloud-([\\d.]+)-win-x64.exe"
     },
     "autoupdate": {
         "url": "https://github.com/dark-kingA/cloudTools/releases/download/$matchTag/cloud-$version-win-x64.exe#/cloudTools.exe"
