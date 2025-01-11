@@ -13,7 +13,7 @@
     "bin": "bkcrack.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/kimci86/bkcrack/releases/download/v$versio/bkcrack-$version-win64.zip",
+        "url": "https://github.com/kimci86/bkcrack/releases/download/v$version/bkcrack-$version-win64.zip",
         "extract_dir": "bkcrack-$version-win64"
     }
 }
