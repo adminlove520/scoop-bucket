@@ -1,10 +1,10 @@
 {
-    "version": "2023.2",
+    "version": "2024.4",
     "description": "SecLists is the security tester's companion.(Scoop bucket by arch3rpro)",
     "homepage": "https://github.com/danielmiessler/SecLists",
     "license": " MIT",
-    "url": "https://github.com/danielmiessler/SecLists/archive/refs/tags/2023.2.zip",
-    "extract_dir": "SecLists-2023.2",
+    "url": "https://github.com/danielmiessler/SecLists/archive/refs/tags/v2024.4.zip",
+    "extract_dir": "SecLists-2024.4",
     "hash": "",
     "checkver": "github",
     "autoupdate": {
