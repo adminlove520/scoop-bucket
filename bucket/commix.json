@@ -14,10 +14,6 @@
         "@python3 \"commix.py\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\commix-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\commix-$version\" -Force -Recurse"
-    ],
     "bin": "commix.bat",
     "checkver": "github",
     "autoupdate": {

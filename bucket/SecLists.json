@@ -6,10 +6,6 @@
     "url": "https://github.com/danielmiessler/SecLists/archive/refs/tags/2023.2.zip",
     "extract_dir": "SecLists-2023.2",
     "hash": "",
-    "post_install": [
-        "Move-Item -Path \"$dir\\SecLists-$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\SecLists-$version\" -Force -Recurse"
-    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/danielmiessler/SecLists/archive/refs/tags/v$version.zip",
