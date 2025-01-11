@@ -1,5 +1,5 @@
 {
-    "version": "v2",
+    "version": "2",
     "architecture": {
         "64bit": {
             "url": "https://github.com/rootkiter/Termite/raw/master/download/Termite.zip",
