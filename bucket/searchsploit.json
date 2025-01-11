@@ -18,7 +18,7 @@
     "bin": "searchsploit.bat",
     "checkver": {
         "url": "https://gitlab.com/exploit-database/exploitdb/-/tags",
-        "regex": "v([\\d.]+)</a>"
+        "regex": "/tags/(\\d+-\\d+-\\d+)"
     },
     "autoupdate": {
         "url": "https://gitlab.com/exploit-database/exploitdb/-/archive/$version/exploitdb-$version.zip"
