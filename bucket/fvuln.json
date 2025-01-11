@@ -12,6 +12,6 @@
         "regex": "Fvuln-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/d3ckx1/Fvuln/releases/download/Fvuln_v$version/Fvuln.exe"
+        "url": "https://github.com/d3ckx1/Fvuln/releases/download/Fvuln_$version/Fvuln.exe"
     }
 }
