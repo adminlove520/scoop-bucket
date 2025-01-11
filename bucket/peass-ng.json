@@ -50,7 +50,7 @@
     "checkver": {
         "url": "https://api.github.com/repos/peass-ng/PEASS-ng/releases/latest",
         "jsonpath": "$.tag_name",
-        "regex": "([\\d\\w-]+])"
+        "regex": "([\\w-]+)"
     },
     "autoupdate": {
         "url": [
