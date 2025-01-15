@@ -1,6 +1,10 @@
 {
     "version": "4.7.0",
     "description": "shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）修复原版中NoCC的问题",
+    "notes": [
+        "漏洞检测利用",
+        "Apache Shiro"
+    ],
     "homepage": "https://github.com/SummerSec/ShiroAttack2",
     "license": "Freeware",
     "suggest": {

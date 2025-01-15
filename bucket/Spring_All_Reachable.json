@@ -1,6 +1,10 @@
 {
     "version": "2.1",
     "description": "(Scoop bucket by arch3rpro) Spring_All_Reachable - Spring漏洞综合利用工具",
+    "notes":[
+        "漏洞检测利用",
+        "Spring Cloud Gateway 命令执行,Spring Cloud Function SpEL 远程代码执行漏洞"
+    ],
     "homepage": "https://github.com/savior-only/Spring_All_Reachable",
     "license": "Freeware",
     "suggest": {

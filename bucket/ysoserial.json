@@ -21,7 +21,6 @@
         "@cmd /c java.exe -jar \"ysoserial.jar\" %*",
         "@popd' -Encoding Ascii"
     ],
-    "pre_install": "Set-Content \"$dir\\ysoserial.bat\" '@pushd %~dp0\n@cmd /c java.exe -jar \"ysoserial.jar\" %*\n@popd' -Encoding Ascii",
     "bin": "ysoserial.bat",
     "checkver": "github",
     "autoupdate": {

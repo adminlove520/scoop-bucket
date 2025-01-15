@@ -1,6 +1,10 @@
 {
     "version": "1.0.bate28",
     "description": "超级弱口令检查工具是一款Windows平台的弱口令审计工具",
+    "notes": [
+        "口令破解",
+        "SSH,RDP,SMB,MySqL,SQLServer,Oracle,FTP,MongoDB,Memcached,PostgreSQL,Telnet,SMTP,SMTP_SSL,POP3,POP3_SSL,IMAP,IMAP_SSL,VNC,Redis"
+    ],
     "homepage": "https://github.com/shack2/SNETCracker",
     "license": "unkown",
     "url": "https://github.com/shack2/SNETCracker/releases/download/1.0.20190715/V1.0.Beta28.20190715.zip",
