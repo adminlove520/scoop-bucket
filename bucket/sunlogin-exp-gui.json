@@ -1,6 +1,10 @@
 {
     "version": "1.0",
     "description": "GUI版向日葵RCE漏洞利用工具 / GUI version of sunlogin exploit tool",
+    "notes": [
+        "漏洞检测利用",
+        "向日葵RCE漏洞"
+    ],
     "homepage": "https://github.com/theLSA/sunlogin-exp-gui",
     "license": "UNKNOWN",
     "suggest": {
