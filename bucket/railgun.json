@@ -11,7 +11,7 @@
         "Get-ChildItem \"$dir\" 'gorailgun-normal-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'railgun.exe'"
     ],
     "url": "https://github.com/lz520520/railgun/releases/download/v2.0.3-sp1/Railgun-windows-v2.0.3-sp1.zip",
-    "hash": "",
+    "hash": "c44ecce1b658e0f4d65f138b8c690582504ccb27389837cbdca2f6d058ae3928",
     "checkver": {
         "url": "https://api.github.com/repos/lz520520/railgun/releases/latest",
         "jsonpath": "$.tag_name",
