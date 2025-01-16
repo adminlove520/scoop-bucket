@@ -14,7 +14,7 @@
         ]
     },
     "url": "https://github.com/superneilcn/GUIEXPTools/raw/refs/heads/main/TongdaEXP/TongdaAnyUserLoginEXP/TongdaAnyUserLoginEXP.jar",
-    "hash": "",
+    "hash": "6ebcd0e5e90d10e28a7c361e5710a82a96a447cc7b5a39c6d81375947c72e6c1",
     "pre_install": [
         "Set-Content \"$dir\\TongdaAnyUserLoginEXP.bat\" '@pushd %~dp0",
         "@call oraclejre8",
