@@ -7,7 +7,7 @@
         "密码:3个空格"
     ],
     "pre_install": [
-        "7z x \"$dir\\Railgun-windows-v$version.zip\" \"-p=railgun\" -o\"$dir\" -y",
+        "7z x \"$dir\\Railgun-windows-v$version.zip\" \"-prailgun\" -o\"$dir\" -y",
         "Get-ChildItem \"$dir\" 'gorailgun-normal-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'railgun.exe'"
     ],
     "url": "https://github.com/lz520520/railgun/releases/download/v2.0.3-sp1/Railgun-windows-v2.0.3-sp1.zip",
