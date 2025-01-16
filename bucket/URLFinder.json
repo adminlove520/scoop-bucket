@@ -4,7 +4,7 @@
     "homepage": "https://github.com/pingc0y/URLFinder",
     "license": "",
     "url": "https://github.com/pingc0y/URLFinder/releases/download/2023.9.9/URLFinder_Windows_x86_64.zip",
-    "hash": "",
+    "hash": "e75688e8c590bf379cc0955ffe8d903362f3f0b4923a2b8c6bf7f7cdfa40463f",
     "bin": "URLFinder.exe",
     "checkver": "github",
     "autoupdate": {
