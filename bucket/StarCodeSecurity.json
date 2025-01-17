@@ -17,8 +17,8 @@
     "hash": "8f4d4bacad32b390ed17204d35424ba603ac9f790f3cb3c4735c49aa656a4ab1",
     "pre_install": [
         "Set-Content \"$dir\\StarCodeSecurity.bat\" '@pushd %~dp0",
-        "@call oraclejdk",
-        "@start java -javaagent:StarCodeSecurity.jar --module-path ./lib --add-modules javafx.controls,javafx.fxml -jar -Dfile.encoding=utf-8 -jar StarCodeSecurity.jar",
+        "@call oraclejre8",
+        "@start java -javaagent:StarCodeSecurity.jar  -Dfile.encoding=utf-8 -jar StarCodeSecurity.jar",
         "@popd' -Encoding Ascii"
     ],
     "bin": "StarCodeSecurity.bat",
