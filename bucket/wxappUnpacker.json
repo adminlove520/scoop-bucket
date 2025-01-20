@@ -13,15 +13,12 @@
             ]
         },
     "url": "https://github.com/threecha/wxappUnpacker/archive/refs/heads/master.zip",
-    "hash":"",
+    "hash":"c0b56dc5cab47f761214299da5d4d367ff455a89fe422ad6ab8840d56315086d",
+    "extract_dir" : "wxappUnpacker-main",
     "pre_install": [
         "Set-Content \"$dir\\wxappUnpacker.bat\" '@pushd %~dp0",
         "@node wuWxapkg.js %*",
         "@popd' -Encoding Ascii"
-    ],
-    "post_install": [
-        "Move-Item -Path \"$dir\\wxappUnpacker-main\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\wxappUnpacker-main\" -Force -Recurse"
     ],
     "bin": [
         "wxappUnpacker.bat",
