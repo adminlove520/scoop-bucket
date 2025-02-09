@@ -1,5 +1,5 @@
 {
-    "version": "1",
+    "version": "3",
     "description": "帆软bi反序列化漏洞利用工具",
     "homepage": "https://github.com/7wkajk/Frchannel",
     "license": "Freeware",
@@ -9,8 +9,8 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/7wkajk/Frchannel/releases/download/1/FrChannel.jar#/FrChannel.jar",
-    "hash": "b9fd8ed245efef84e25f012b1a2d533fe88c9e11451175ee55b43a0bb26a0356",
+    "url": "https://github.com/7wkajk/Frchannel/releases/download/2/FrChannel-v3.jar#/FrChannel.jar",
+    "hash": "4bfbbcbac22467aa0c3667642cd0555f0c946b96a241cec944005b13921cbc66",
     "pre_install": [
         "Set-Content \"$dir\\FrChannel.bat\" '@pushd %~dp0",
         "@call oraclejre8",
