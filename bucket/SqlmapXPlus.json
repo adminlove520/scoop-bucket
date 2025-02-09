@@ -12,7 +12,7 @@
             "python3"
         ]
     },
-    "url": "hhttps://github.com/co01cat/SqlmapXPlus/archive/refs/tags/v1.6-sqlmapxplus.zip",
+    "url": "https://github.com/co01cat/SqlmapXPlus/archive/refs/tags/v1.6-sqlmapxplus.zip",
     "hash": "",
     "extract_dir":"SqlmapXPlus-1.6-sqlmapxplus",
     "pre_install": [
