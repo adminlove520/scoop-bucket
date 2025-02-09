@@ -9,7 +9,7 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/7wkajk/Frchannel/releases/download/1/FrChannel.jar",
+    "url": "https://github.com/7wkajk/Frchannel/releases/download/1/FrChannel.jar#/FrChannel.jar",
     "hash": "b9fd8ed245efef84e25f012b1a2d533fe88c9e11451175ee55b43a0bb26a0356",
     "pre_install": [
         "Set-Content \"$dir\\FrChannel.bat\" '@pushd %~dp0",
@@ -20,10 +20,9 @@
     "bin": "FrChannel.bat",
     "checkver": {
         "url": "https://api.github.com/repos/7wkajk/Frchannel/releases/latest",
-        "jsonpath": "$.tag_name",
-        "regex": "([\\w]+)"
+        "regex": "download/(?<tag>[\\d\\.]+)/FrChannel-v([\\d.]+)\\.jar"
     },
     "autoupdate": {
-        "url": "https://github.com/7wkajk/Frchannel/releases/download/$version/FrChannel.jar"
+        "url": "https://github.com/7wkajk/Frchannel/releases/download/$matchTag/FrChannel-v$version.jar#/FrChannel.jar"
     }
 }
