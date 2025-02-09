@@ -13,7 +13,7 @@
         ]
     },
     "url": "https://github.com/co01cat/SqlmapXPlus/archive/refs/tags/v1.6-sqlmapxplus.zip",
-    "hash": "",
+    "hash": "7b5a638bbb81c80af7c2ad053ce8bf7d1a43cba83ca07859ca5fed73767f53ea",
     "extract_dir":"SqlmapXPlus-1.6-sqlmapxplus",
     "pre_install": [
         "Set-Content \"$dir\\SqlmapXPlus.bat\" '@pushd %~dp0",
