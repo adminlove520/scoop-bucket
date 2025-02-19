@@ -7,10 +7,6 @@
         "https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan",
         "https://github.com/shadow1ng/fscan/releases/download/1.8.4/fscan.exe"
     ],
-    "hash": [
-        "",
-        ""
-    ],
     "bin": "fscan.exe",
     "checkver": "github",
     "autoupdate": {

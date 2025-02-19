@@ -10,7 +10,7 @@
         ]
     },
     "url": "https://github.com/yuxianzi/FrchannelPlus/releases/download/1.0/FrChannel.jar",
-    "hash": "70d608252e2fa1b50587cc4f653fe92d8e447421411c64f14dd96648b64f3c2a",
+    "hash": "",
     "pre_install": [
         "Set-Content \"$dir\\FrchannelPlus_fix_for_yuxianzi.bat\" '@pushd %~dp0",
         "@call oraclejre8",
