@@ -13,7 +13,7 @@
             ]
         },
     "url": "https://github.com/tingyusys/RaindropEcho/archive/refs/heads/master.zip",
-    "hash":"",
+    "hash":"52689930af592fa757d53cc55cc99d1fa1442c3dadba1acbd3910bb5437abce4",
     "checkver": {
         "url": "https://api.github.com/repos/tingyusys/RaindropEcho/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
